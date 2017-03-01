@@ -83,7 +83,16 @@ header.carousel .fill {
     font-size: 100px;
 }
 
-/* Pricing Page Styles */
+/* Pricing Page Styles + Updates */
+
+img.icon {
+    height: 60px;
+    width: 60px;
+}
+
+.padhead {
+    padding: 15px 0 20px;
+}
 
 .price {
     display: block;
@@ -102,6 +111,110 @@ header.carousel .fill {
     font-style: italic;
 }
 
+table {
+    border-collapse: collapse;
+    padding: 20px;
+    width: 100%;
+}
+
+td {
+    width: 96px;
+}
+
+td, th {
+    text-align: center;
+    border-bottom: solid 1px #ccc;
+    font-size: 12px;
+    padding: 6px;
+    word-wrap: break-word;
+}
+
+td:nth-child(even), th:nth-child(even) {
+    background-color: #efefef;
+}
+
+th:first-child, td:first-child {
+    color: black;
+    text-align: left;
+    width: auto;
+}
+
+th {
+    font-size: 16px;
+    font-weight: bold;
+    height: 100%;
+    line-height: 100%; 
+}
+
+.tile {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.tile .title {
+    margin-top: 0px;
+}
+
+.tile.purple, .tile.blue, .tile.red, .tile.orange, .tile.green, .tile.yellow {
+    color: #fff;
+}
+
+.tile.purple {
+    background: #5133ab;
+}
+
+.tile.purple:hover {
+    background: #3e2784;
+}
+
+.tile.red {
+    background: #ac193d;
+}
+
+.tile.red:hover {
+    background: #7f132d;
+}
+
+.tile.green {
+    background: #00a600;
+}
+
+.tile.green:hover {
+    background: #007300;
+}
+
+.tile.blue {
+    background: #2672ec;
+}
+
+.tile.blue:hover {
+    background: #125acd;
+}
+
+.tile.orange {
+    background: #dc572e;
+}
+
+.tile.orange:hover {
+    background: #b8431f;
+}
+
+.tile.yellow {
+    background: #BDB76B;
+}
+
+.tile.yellow:hover {
+    background: #808000;
+}
+
+.visible-xs {
+    display: none;
+}
+
 /* Footer Styles */
 
 footer {
@@ -117,6 +230,29 @@ footer {
     }
 }
 
+@media screen and (min-width: 768px) {
+    .compchart {
+        padding: 0 20px;
+    }
+
+    .compchart > .row {
+        margin: 0 !important;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    th.headertext {
+        height: 96px;
+        text-align: left;
+      }
+
+    th.headertext {
+      -ms-transform: rotate(270deg);
+        -webkit-transform: rotate(270deg); 
+        transform: rotate(270deg);
+    }
+}
+
 @media(max-width:767px) {
     .img-portfolio {
         margin-bottom: 15px;
@@ -124,5 +260,37 @@ footer {
 
     header.carousel .carousel {
         height: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+      margin-left: 20px;
+      font-size: 26px;
+    }
+    
+    h2 {
+      font-size: 22px;
+    }
+    
+    tr {
+      width: 100%;
+    }
+    
+    th {
+      font-size: 16px;
+      width: 25%;
+    }
+
+    .visible-xs {
+      display: table-row;
+    }
+
+    .visible-xs > td:nth-child(2) {
+      background-color: #fff;
+    }
+    td:first-child,
+    th:first-child {
+      display: none;
     }
 }
