@@ -1095,13 +1095,9 @@ $.fn.scrollToView = function () {
 <script type="text/javascript" charset="utf-8">
   $(document).ready(function(){
     $("a[rel^='prettyPhoto']").prettyPhoto();
-    //if ( $( ".collapse.in" ).length ) {
-    if( $('.collapse').hasClass('in') ) {
- 
-            //$( "#myDiv" ).show();
-            alert("yay!");
-         
-    }
+    $( "a.accordion-toggle" ).on( "click", function() {
+        $(this).closest("h4").children("i").toggleClass("glyphicon-chevron-up glyphicon-chevron-down");
+    });
   });
 </script>
 </body>
