@@ -39,8 +39,17 @@
     -->
     <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
     <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
-
-	
+    <script type="text/javascript">
+        function toggleChevron(e) {
+            $(e.target)
+                .prev('.panel-heading')
+                .find("i.indicator")
+                .toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
+        }
+        $('#accordion').on('hidden.bs.collapse', toggleChevron);
+        $('#accordion').on('shown.bs.collapse', toggleChevron);
+    </script>
+    
 </head>
 
 <body>
@@ -98,7 +107,7 @@ Technical Sales Representative<br>
             <div class="col-md-6">
                 <div class="video-container">
                    <iframe width="700" height="394" src="https://www.youtube.com/embed/bRjX19xrx5U?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-				</div>
+                </div>
             </div>
         </div>
         <!-- /.row -->
@@ -127,14 +136,14 @@ Technical Sales Representative<br>
                 <div id="tabs" class="tab-content">
                     <div class="tab-pane fade active in" id="in-line">
                      <!-- In-Line Primers Section -->
-        		<div class="row">
-            	<div class="col-lg-12">
+                <div class="row">
+                <div class="col-lg-12">
                 <h3 class="page-header">
                     In-Line Primers
                 </h3>
                 <p>LexJet is the number one distributor of Michelman In-Line Primers in the US and Canada.  Michelman provides the ONLY HP certified primer for your HP Indigo Press.   
                 If you have any issues with priming via your ILP unit, please contact us immediately.  We have tons of technical experience and are here to help. If you don’t see something that fits your needs, please check out the custom section.</p>
-            	</div>
+                </div>
             <div class="col-lg-8 nopadding">
             <div class="col-md-6">
                 <div class="panel panel-default">
@@ -146,14 +155,14 @@ Technical Sales Representative<br>
                         <img class="img-responsive" src="img/prime-hpi30000.jpg" >
                         <br />
                         <div class="panel panel-default text-center">
-		   					<div class="panel-body">
+                            <div class="panel-body">
                                 <img src="img/michelman-140.png" style="display:block; margin:auto;">
-                        		<h4>In-Line  Primer (DP060)</h4>
-                        		<p>Universal primer exclusively for the 30000 model.</p>
-                        		<a href="http://cdn.lexjet.com/marketing/files/DP060_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                        		<a href="http://cdn.lexjet.com/marketing/files/DP060-TDS.pdf" target="_blank" class="btn btn-primary">TDS</a>
-                    		</div>
-						</div>
+                                <h4>In-Line  Primer (DP060)</h4>
+                                <p>Universal primer exclusively for the 30000 model.</p>
+                                <a href="http://cdn.lexjet.com/marketing/files/DP060_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
+                                <a href="http://cdn.lexjet.com/marketing/files/DP060-TDS.pdf" target="_blank" class="btn btn-primary">TDS</a>
+                            </div>
+                        </div>
                         
                         <strong>Note: </strong>To <a href="https://www.youtube.com/watch?v=zXj7NvgtvXk" rel="prettyPhoto" title="Evaluating Print Performance">check for proper coating  coverage</a>, we recommend the DigiPrime® (MI-102) Indicator Solution.
                         
@@ -169,14 +178,14 @@ Technical Sales Representative<br>
                     <img class="img-responsive" src="img/prime-hpi20000.jpg">
                         <br />
                         <div class="panel panel-default text-center">
-		   					<div class="panel-body">
+                            <div class="panel-body">
                                 <img src="img/michelman-140.png" style="display:block; margin:auto;">
-                        		<h4>In-Line Primer (DP050)</h4>
-                        		<p>Universal primer exclusively for the 20000 model.</p>
-                        		<a href="http://cdn.lexjet.com/marketing/files/DP050_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                        		<a href="http://cdn.lexjet.com/marketing/files/DP050-TDS.pdf" target="_blank" class="btn btn-primary">TDS</a>
-                    		</div>
-						</div>                    
+                                <h4>In-Line Primer (DP050)</h4>
+                                <p>Universal primer exclusively for the 20000 model.</p>
+                                <a href="http://cdn.lexjet.com/marketing/files/DP050_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
+                                <a href="http://cdn.lexjet.com/marketing/files/DP050-TDS.pdf" target="_blank" class="btn btn-primary">TDS</a>
+                            </div>
+                        </div>                    
                         
                         <strong>Note:</strong> To <a href="https://www.youtube.com/watch?v=zXj7NvgtvXk" rel="prettyPhoto" title="Evaluating Print Performance">check for proper coating  coverage</a>, we recommend the DigiPrime® (MI-102) Indicator Solution.
                        
@@ -193,26 +202,26 @@ Technical Sales Representative<br>
                         <img class="img-responsive" src="img/prime-hpi7200.jpg" >
                         <br />
                         <div class="panel panel-default text-center">
-		   					<div class="panel-body">
+                            <div class="panel-body">
                                 <img src="img/michelman-140.png" style="display:block; margin:auto;">
-                        		<h4>In-Line  Primer (Q4324A)</h4>
-                        		<p>Designed for coated substrates.</p>
-                        		<a href="http://cdn.lexjet.com/marketing/files/Q4324A_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                        		<a href="http://cdn.lexjet.com/marketing/files/TDS - Q4324A.pdf" target="_blank" class="btn btn-primary">TDS</a>
-                    	</div>  
+                                <h4>In-Line  Primer (Q4324A)</h4>
+                                <p>Designed for coated substrates.</p>
+                                <a href="http://cdn.lexjet.com/marketing/files/Q4324A_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
+                                <a href="http://cdn.lexjet.com/marketing/files/TDS - Q4324A.pdf" target="_blank" class="btn btn-primary">TDS</a>
+                        </div>  
                         </div>                      
                        
                         <div class="panel panel-default text-center">
-		   					<div class="panel-body">
+                            <div class="panel-body">
                                 <img src="img/michelman-140.png" style="display:block; margin:auto;">
-                        		<h4>In-Line  Primer (Q4325A)</h4>
-                        		<p>Designed for uncoated substrates.</p>
-                        		<a href="http://cdn.lexjet.com/marketing/files/Q4325A_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                        		<a href="http://cdn.lexjet.com/marketing/files/TDS - Q4325A.pdf" target="_blank" class="btn btn-primary">TDS</a>
-                    	</div>
+                                <h4>In-Line  Primer (Q4325A)</h4>
+                                <p>Designed for uncoated substrates.</p>
+                                <a href="http://cdn.lexjet.com/marketing/files/Q4325A_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
+                                <a href="http://cdn.lexjet.com/marketing/files/TDS - Q4325A.pdf" target="_blank" class="btn btn-primary">TDS</a>
+                        </div>
                         </div> 
                         
-						<strong>Note:</strong> To <a href="https://www.youtube.com/watch?v=zXj7NvgtvXk" rel="prettyPhoto" title="Evaluating Print Performance">check for proper coating  coverage</a>, we recommend the Sapphire Indicator Solution.</p>
+                        <strong>Note:</strong> To <a href="https://www.youtube.com/watch?v=zXj7NvgtvXk" rel="prettyPhoto" title="Evaluating Print Performance">check for proper coating  coverage</a>, we recommend the Sapphire Indicator Solution.</p>
                         
                     </div>
                 </div>
@@ -227,27 +236,27 @@ Technical Sales Representative<br>
                         <img class="img-responsive" src="img/prime-hpi3250.jpg" >
                         <br />
                         <div class="panel panel-default text-center">
-		   					<div class="panel-body">
+                            <div class="panel-body">
                                 <img src="img/michelman-140.png" style="display:block; margin:auto;">
-                        		<h4>In-Line  Primer (Q4304A)</h4>
-                        		<p>Designed for coated substrates.</p>
-                        		<a href="http://cdn.lexjet.com/marketing/files/Q4304A_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                        		<a href="http://cdn.lexjet.com/marketing/files/TDS - Q4304A.pdf" target="_blank" class="btn btn-primary">TDS</a>
-                    	</div>  
+                                <h4>In-Line  Primer (Q4304A)</h4>
+                                <p>Designed for coated substrates.</p>
+                                <a href="http://cdn.lexjet.com/marketing/files/Q4304A_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
+                                <a href="http://cdn.lexjet.com/marketing/files/TDS - Q4304A.pdf" target="_blank" class="btn btn-primary">TDS</a>
+                        </div>  
                         </div> 
 
 
                         <div class="panel panel-default text-center">
-		   					<div class="panel-body">
+                            <div class="panel-body">
                                 <img src="img/michelman-140.png" style="display:block; margin:auto;">
-                        		<h4>In-Line  Primer (Q4305A)</h4>
-                        		<p>Designed for uncoated substrates.</p>
-                        		<a href="http://cdn.lexjet.com/marketing/files/Q4305A-SDS-AGHS-en-CIN.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                        		<a href="http://cdn.lexjet.com/marketing/files/Q4305A-TDS.pdf" target="_blank" class="btn btn-primary">TDS</a>
-                    	</div>  
+                                <h4>In-Line  Primer (Q4305A)</h4>
+                                <p>Designed for uncoated substrates.</p>
+                                <a href="http://cdn.lexjet.com/marketing/files/Q4305A-SDS-AGHS-en-CIN.pdf" target="_blank" class="btn btn-primary">SDS</a>
+                                <a href="http://cdn.lexjet.com/marketing/files/Q4305A-TDS.pdf" target="_blank" class="btn btn-primary">TDS</a>
+                        </div>  
                         </div>                                                 
                         
-  						<strong>Note: </strong>To <a href="https://www.youtube.com/watch?v=zXj7NvgtvXk" rel="prettyPhoto" title="Evaluating Print Performance">check for proper coating  coverage</a>, we recommend the Sapphire Indicator Solution.</p>
+                        <strong>Note: </strong>To <a href="https://www.youtube.com/watch?v=zXj7NvgtvXk" rel="prettyPhoto" title="Evaluating Print Performance">check for proper coating  coverage</a>, we recommend the Sapphire Indicator Solution.</p>
                         
                     </div>
                 </div>
@@ -264,44 +273,44 @@ Technical Sales Representative<br>
                         <img class="img-responsive" src="img/prime-hpi6600.jpg">
                         <br />
                         <div class="panel panel-default text-center">
-		   					<div class="panel-body">
+                            <div class="panel-body">
                                 <img src="img/michelman-140.png" style="display:block; margin:auto;">
-                        		<h4>In-Line  Primer (ILP030)</h4>
-                        		<p>Universal Primer that works for 95% of all substrates.</p>
-                        		<a href="http://cdn.lexjet.com/marketing/files/ILP030_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                        		<a href="http://cdn.lexjet.com/marketing/files/ILP030-TDS.pdf" target="_blank" class="btn btn-primary">TDS</a>
-                    	</div>  
+                                <h4>In-Line  Primer (ILP030)</h4>
+                                <p>Universal Primer that works for 95% of all substrates.</p>
+                                <a href="http://cdn.lexjet.com/marketing/files/ILP030_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
+                                <a href="http://cdn.lexjet.com/marketing/files/ILP030-TDS.pdf" target="_blank" class="btn btn-primary">TDS</a>
+                        </div>  
                         </div> 
                      
                         <div class="panel panel-default text-center">
-		   					<div class="panel-body">
+                            <div class="panel-body">
                                 <img src="img/michelman-140.png" style="display:block; margin:auto;">
-                        		<h4>In-Line  Primer (ILP040)</h4>
-                        		<p>Primer designed for more difficult-to-prime substrates like foils.</p>
-                        		<a href="http://cdn.lexjet.com/marketing/files/ILP040_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                        		<a href="http://cdn.lexjet.com/marketing/files/TDS - ILP040.pdf" target="_blank" class="btn btn-primary">TDS</a>
-                    	</div>  
+                                <h4>In-Line  Primer (ILP040)</h4>
+                                <p>Primer designed for more difficult-to-prime substrates like foils.</p>
+                                <a href="http://cdn.lexjet.com/marketing/files/ILP040_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
+                                <a href="http://cdn.lexjet.com/marketing/files/TDS - ILP040.pdf" target="_blank" class="btn btn-primary">TDS</a>
+                        </div>  
                         </div>                                                 
                         <strong>Note:</strong> To <a href="https://www.youtube.com/watch?v=zXj7NvgtvXk" rel="prettyPhoto" title="Evaluating Print Performance">check for proper coating coverage</a> with the ILP030 or ILP040 we recommend the DigiPrime MI-001 Indicator Solution. 
                         <br /><br />
                         <div class="panel panel-default text-center">
-		   					<div class="panel-body">
+                            <div class="panel-body">
                                 <img src="img/michelman-140.png" style="display:block; margin:auto;">
-                        		<h4>Michem®  Cleaner 1188</h4>
-                        		<p>Cleaning solution for the cleaning tank of the in-line priming unit.</p>
-                        		<a href="http://cdn.lexjet.com/marketing/files/MCL1188_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                        		<a href="http://cdn.lexjet.com/marketing/files/MCL1188-TDS.pdf" target="_blank" class="btn btn-primary">TDS</a>
-                    	</div>  
+                                <h4>Michem®  Cleaner 1188</h4>
+                                <p>Cleaning solution for the cleaning tank of the in-line priming unit.</p>
+                                <a href="http://cdn.lexjet.com/marketing/files/MCL1188_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
+                                <a href="http://cdn.lexjet.com/marketing/files/MCL1188-TDS.pdf" target="_blank" class="btn btn-primary">TDS</a>
+                        </div>  
                         </div> 
 
                         <div class="panel panel-default text-center">
-		   					<div class="panel-body">
+                            <div class="panel-body">
                                 <img src="img/michelman-140.png" style="display:block; margin:auto;">
-                        		<h4>In-Line  Primer (DP680)</h4>
-                        		<p>A cost effective universal primer.</p>
-                        		<a href="http://cdn.lexjet.com/marketing/files/DP680-SDS-AGHS-en-CIN.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                        		<a href="http://cdn.lexjet.com/marketing/files/DP680-TDS.pdf" target="_blank" class="btn btn-primary">TDS</a>
-                    	</div>  
+                                <h4>In-Line  Primer (DP680)</h4>
+                                <p>A cost effective universal primer.</p>
+                                <a href="http://cdn.lexjet.com/marketing/files/DP680-SDS-AGHS-en-CIN.pdf" target="_blank" class="btn btn-primary">SDS</a>
+                                <a href="http://cdn.lexjet.com/marketing/files/DP680-TDS.pdf" target="_blank" class="btn btn-primary">TDS</a>
+                        </div>  
                         </div> 
                         <strong>Note:</strong> To <a href="https://www.youtube.com/watch?v=zXj7NvgtvXk" rel="prettyPhoto" title="Evaluating Print Performance">check for proper coating coverage</a> with the DP680 Primer, we recommend the DigiPrime® (MI-102) Indicator Solution.
                         <br /><br />
@@ -483,7 +492,7 @@ Technical Sales Representative<br>
                     </div>
                 </div>
              </div>      
-             			
+                        
              </div>
              
         <!-- Product Panels -->
@@ -595,14 +604,14 @@ Technical Sales Representative<br>
                 </div>
               
                          
-                			<h4 class="page-header">Levia Custom Digital Coatings</h4>
+                            <h4 class="page-header">Levia Custom Digital Coatings</h4>
                             <p>Levia Custom Digital Coatings offer exceptional adhesion and extended shelf life for various thicknesses of unique substrate applications.</p>
-            			
+                        
                        
                     </div>
 
                     <div class="tab-pane fade" id="video">
-                     	<div class="row">
+                        <div class="row">
                             <div class="col-lg-12">
                                 <h3 class="page-header">How-To Videos</h3>
                             </div>
@@ -615,7 +624,7 @@ Technical Sales Representative<br>
                             
                             <div class="col-md-6">
                             <h4>Cleaning Anilox Rollers</h4>
-                            	 <div class="video-container">
+                                 <div class="video-container">
                                  <iframe width="560" height="315" src="https://www.youtube.com/embed/YCOFeZlRbfo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                                  </div>
                             </div>
@@ -628,7 +637,7 @@ Technical Sales Representative<br>
                             </div>
                             <div class="col-md-6">
                             <h4>Best Practices While Priming a Substrate</h4>
-                            	 <div class="video-container">
+                                 <div class="video-container">
                                  <iframe width="560" height="315" src="https://www.youtube.com/embed/rX_lH-QNRRE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                                  </div>
                             </div>
@@ -833,155 +842,208 @@ Technical Sales Representative<br>
         <!-- Tabs End -->
 
 <hr>
-
         <!-- FAQ Section 
         <div class="well">-->
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="page-header">FAQ</h2>
-                    <div><p><strong>What is a Laminate?</strong><br>
-                        A laminate is a film with either a thermal or PSA activated adhesive, designed to go on top or back (or both) of the graphic and serves 4 functions:
-                        <ul>
-                            <li>Protect the Graphic</li>
-                            <li>Enhance the appearance or finish</li>
-                            <li>Add body, thickness, or rigidity</li>
-                            <li>Specialty Applications</li>
-                        </ul>
-                    </p>
-                    <br>
-                    <p><strong>Why use a Laminate?</strong><br>
-                        The three main reasons to use a laminate are to protect the graphic, enhance the appearance, and to add rigidity.</p>
+                        <div class="panel-group" id="accordion">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">What is a Laminate?</a><i class="indicator glyphicon glyphicon-chevron-up  pull-right"></i>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>A laminate is a film with either a thermal or PSA activated adhesive, designed to go on top or back (or both) of the graphic and serves 4 functions:</p>
+                                        <ul>
+                                            <li>Protect the Graphic</li>
+                                            <li>Enhance the appearance or finish</li>
+                                            <li>Add body, thickness, or rigidity</li>
+                                            <li>Specialty Applications</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Why use a Laminate?</a><i class="indicator glyphicon glyphicon-chevron-up  pull-right"></i>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>The three main reasons to use a laminate are to protect the graphic, enhance the appearance, and to add rigidity.</p>
+                                        <p><strong>Protecting the graphic</strong>
+                                            <ul>
+                                                <li>Moisture resistance</li>
+                                                <li>UV inhibitors (in adhesive)</li>
+                                                <li>Fading</li>
+                                                <li>Scratching</li>
+                                                <li>Climatic radiation (rain, hail, snow, etc)</li>
+                                                <li>Fingerprints</li>
+                                                <li>Graffiti</li>
+                                                <li>Vandalism</li>
+                                            </ul>
+                                        </p>
+                                        <p><strong>Enhancing the Appearance</strong>
+                                            <ul>
+                                                <li>4 basic finishes:</li>
+                                                    <ul>
+                                                        <li>Gloss</li>
+                                                        <li>Luster (satin, semi-matte or semi-gloss)</li>
+                                                        <li>Matte</li>
+                                                        <li>Velvet/Textured</li>
+                                                    </ul>
+                                                <li>Finish depends on the application</li>
+                                                <li>Luster is the most widely used, followed by matte, then gloss</li>
+                                                <li>Velvet/Textured are used because of their non-glare properties, as well as hiding fingerprints and scratches</li>
+                                            </ul>
+                                        </p>
+                                        <p><strong>Adding Rigidity</strong>
+                                            <ul>
+                                                <li>Increase rigidity for handling, mounting, and shipping</li>
+                                                <li>Rigidity is required when making tradeshow graphics because the graphic needs body to hang properly</li>
+                                                <li>Flexibility is required because the graphics need to be rolled and unrolled</li>
+                                                <li>For graphics that will be rolled, the laminate, and backing film combination are critical</li>
+                                            </ul>
+                                        </p>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                    <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Understanding Dry Time, Cure Time, and Cutting</a><i class="indicator glyphicon glyphicon-chevron-up  pull-right"></i>
+                                    </h4>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li><strong>Ink Drying Time</strong></li>
+                                                <ul>
+                                                    <li>It’s important for the inks to be completely dry before laminating.  A good way to know if the print is ready to be laminated is to make sure it is dry to the touch.  If the ink is still tacky, allow more dry time.  Printer manufacturers recommend waiting 24 hours.</li>
+                                                </ul>
+                                        </ul>
+                                        <ul>
+                                            <li><strong>Adhesive Cure Time</strong></li>
+                                                <ul>
+                                                    <li>It is important to allow ample time for your adhesives to cure before trimming and rolling your graphics.  Insufficient cure time can lead to poor bond strength, causing tunneling, delaminating, and edge lift.  We recommend allowing at least 2 hours for the adhesive to cure before trimming and rolling your graphics.  A full 24 hours of cure time will yield the best bond.</li>
+                                                </ul>
+                                        </ul>
+                                        <ul>
+                                            <li><strong>Cutting &amp; Trimming</strong></li>
+                                                <ul>
+                                                    <li>When trimming graphics, if possible, you should always cut through the softer material first.  Be sure to use a freshly sharpened blade and trim the graphics with a straight edge on tempered glass.  This will yield the most consistent results.</li>
+                                                </ul>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <p>Protecting the graphic
-                        <ul>
-                            <li>Moisture resistance</li>
-                            <li>UV inhibitors (in adhesive)</li>
-                            <li>Fading</li>
-                            <li>Scratching</li>
-                            <li>Climatic radiation (rain, hail, snow, etc)</li>
-                            <li>Fingerprints</li>
-                            <li>Graffiti</li>
-                            <li>Vandalism</li>
-                        </ul>
-                    </p>
 
-                    <p>Enhancing the Appearance
-                        <ul>
-                            <li>4 basic finishes:</li>
-                                <ul>
-                                    <li>Gloss</li>
-                                    <li>Luster (satin, semi-matte or semi-gloss)</li>
-                                    <li>Matte</li>
-                                    <li>Velvet/Textured</li>
-                                </ul>
-                            <li>Finish depends on the application</li>
-                            <li>Luster is the most widely used, followed by matte, then gloss</li>
-                            <li>Velvet/Textured are used because of their non-glare properties, as well as hiding fingerprints and scratches</li>
-                        </ul>
-                    </p>
-                    <p>Adding Rigidity
-                        <ul>
-                            <li>Increase rigidity for handling, mounting, and shipping</li>
-                            <li>Rigidity is required when making tradeshow graphics because the graphic needs body to hang properly</li>
-                            <li>Flexibility is required because the graphics need to be rolled and unrolled</li>
-                            <li>For graphics that will be rolled, the laminate, and backing film combination are critical</li>
-                        </ul>
-                    </p>
-                    <br>
-                    <p><strong>Understanding Dry Time, Cure Time, and Cutting</strong>
-                        <ul>
-                            <li><strong>Ink Drying Time</strong></li>
-                                <ul>
-                                    <li>It’s important for the inks to be completely dry before laminating.  A good way to know if the print is ready to be laminated is to make sure it is dry to the touch.  If the ink is still tacky, allow more dry time.  Printer manufacturers recommend waiting 24 hours.</li>
-                                </ul>
-                        </ul>
-                        <ul>
-                            <li><strong>Adhesive Cure Time</strong></li>
-                                <ul>
-                                    <li>It is important to allow ample time for your adhesives to cure before trimming and rolling your graphics.  Insufficient cure time can lead to poor bond strength, causing tunneling, delaminating, and edge lift.  We recommend allowing at least 2 hours for the adhesive to cure before trimming and rolling your graphics.  A full 24 hours of cure time will yield the best bond.</li>
-                                </ul>
-                        </ul>
-                        <ul>
-                            <li><strong>Cutting &amp; Trimming</strong></li>
-                                <ul>
-                                    <li>When trimming graphics, if possible, you should always cut through the softer material first.  Be sure to use a freshly sharpened blade and trim the graphics with a straight edge on tempered glass.  This will yield the most consistent results.</li>
-                                </ul>
-                        </ul>
-                    </p>
-                    <br>
-                    <p><strong>Understanding laminate base films</strong>
-                        <ul>
-                            <li>The base film is critical when selecting a laminate to work properly with your printable media. </li>
-                            <li>The most common types of base films are: 
-                                <ul>
-                                    <li>Polyester
+                     <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Understanding laminate base films</a><i class="indicator glyphicon glyphicon-chevron-up  pull-right"></i>
+                                    </h4>
+                                </div>
+                                <div id="collapseFive" class="panel-collapse collapse">
+                                    <div class="panel-body">
                                         <ul>
-                                            <li>Rigid, dimensionally stable</li>
-                                            <li>Regular and hard coat</li>
+                                            <li>The base film is critical when selecting a laminate to work properly with your printable media. </li>
+                                            <li>The most common types of base films are: 
+                                                <ul>
+                                                    <li>Polyester
+                                                        <ul>
+                                                            <li>Rigid, dimensionally stable</li>
+                                                            <li>Regular and hard coat</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>Vinyl
+                                                        <ul>
+                                                            <li>Rigid, dimensionally stable</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>Polycarbonate
+                                                        <ul>
+                                                            <li>Tough, very expensive, generally thicker</li>
+                                                            <li>Known by GE brand name Lexan</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>Polypropylene
+                                                        <ul>
+                                                            <li>Inexpensive, more stable than vinyl</li>
+                                                            <li>Poor performance with UV light and severe temps compared to vinyl</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>Coex
+                                                        <ul>
+                                                            <li>A mixture of vinyl and polyester, resulting in a stable film that is soft to cut, yet durable to scratching</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
                                         </ul>
-                                    </li>
-                                </ul>
-                                <ul>
-                                    <li>Vinyl
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">What are PSA laminates?</a><i class="indicator glyphicon glyphicon-chevron-up  pull-right"></i>
+                                    </h4>
+                                </div>
+                                <div id="collapseSix" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                            <ul>
+                                                <li>Referred to as cold laminates (80+ degrees preferred)</li>
+                                                <li>Applied by pressure and do not require heat</li>
+                                                <li>Consist of many different film types, many different types of adhesives</li>
+                                                <li>Release liner</li>
+                                                <li>Like tape – It’s sticky to the touch and the more pressure, the better it sticks</li>
+                                                <li>PSAs are less durable, except for certain ink jet applications</li>
+                                                <li>Create a mechanical bond rather than a chemical bond</li>
+                                                <li>Initial cost of product is more expensive than thermal</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">What are thermal or low-melt laminates?</a><i class="indicator glyphicon glyphicon-chevron-up  pull-right"></i>
+                                    </h4>
+                                </div>
+                                <div id="collapseSeven" class="panel-collapse collapse">
+                                    <div class="panel-body">
                                         <ul>
-                                            <li>Rigid, dimensionally stable</li>
+                                            <li>Heat activated and applied by pressure</li>
+                                            <li>Bond occurs during the cooling process</li>
+                                            <li>Creates a chemical bond</li>
+                                            <li>Consists of polyester or PVC film with a co-polymer adhesive such as polyethylene</li>
+                                            <li>Temperature range is 165° to 290° F</li>
+                                            <li>No release liner</li>
+                                            <li>Initial cost of product is least expensive</li>
                                         </ul>
-                                    </li>
-                                </ul>
-                                <ul>
-                                    <li>Polycarbonate
-                                        <ul>
-                                            <li>Tough, very expensive, generally thicker</li>
-                                            <li>Known by GE brand name Lexan</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <ul>
-                                    <li>Polypropylene
-                                        <ul>
-                                            <li>Inexpensive, more stable than vinyl</li>
-                                            <li>Poor performance with UV light and severe temps compared to vinyl</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <ul>
-                                    <li>Coex
-                                        <ul>
-                                            <li>A mixture of vinyl and polyester, resulting in a stable film that is soft to cut, yet durable to scratching</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </p>
-                    <br>
-                    <p><strong>What are PSA laminates?</strong>
-                        <ul>
-                            <li>Referred to as cold laminates (80+ degrees preferred)</li>
-                            <li>Applied by pressure and do not require heat</li>
-                            <li>Consist of many different film types, many different types of adhesives</li>
-                            <li>Release liner</li>
-                            <li>Like tape – It’s sticky to the touch and the more pressure, the better it sticks</li>
-                            <li>PSAs are less durable, except for certain ink jet applications</li>
-                            <li>Create a mechanical bond rather than a chemical bond</li>
-                            <li>Initial cost of product is more expensive than thermal</li>
-                        </ul>
-                    </p>
-                    <br>
-                    <p><strong>What are thermal or low-melt laminates?</strong>
-                        <ul>
-                            <li>Heat activated and applied by pressure</li>
-                            <li>Bond occurs during the cooling process</li>
-                            <li>Creates a chemical bond</li>
-                            <li>Consists of polyester or PVC film with a co-polymer adhesive such as polyethylene</li>
-                            <li>Temperature range is 165° to 290° F</li>
-                            <li>No release liner</li>
-                            <li>Initial cost of product is least expensive</li>
-                        </ul>
-                    </p>
+                                    </div>
+                                </div>
+                            </div>
                 </div>
             </div>
         </div>
+
 <hr>
 
         <!-- Call to Action Section -->
@@ -1033,6 +1095,13 @@ $.fn.scrollToView = function () {
 <script type="text/javascript" charset="utf-8">
   $(document).ready(function(){
     $("a[rel^='prettyPhoto']").prettyPhoto();
+    //if ( $( ".collapse.in" ).length ) {
+    if( $('.collapse').hasClass('in') ) {
+ 
+            //$( "#myDiv" ).show();
+            alert("yay!");
+         
+    }
   });
 </script>
 </body>
