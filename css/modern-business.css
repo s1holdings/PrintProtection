@@ -235,11 +235,20 @@ footer {
 }
 
 /* Responsive Styles */
+@media screen and (min-width: 992px) {
+    .nomarg {
+        margin-top: 13px !important;
+    }
+}
 
 @media(max-width:991px) {
     .customer-img,
     .img-related {
         margin-bottom: 30px;
+    }
+
+    .nomarg {
+        text-align: center;
     }
 }
 
