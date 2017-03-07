@@ -99,10 +99,6 @@ img.icon {
     width: 60px;
 }
 
-.nomarg {
-    margin: 0 !important;
-}
-
 .padhead {
     padding: 15px 0 20px;
 }
@@ -248,6 +244,7 @@ footer {
     }
 
     .nomarg {
+        margin-bottom: 10px;
         text-align: center;
     }
 }
