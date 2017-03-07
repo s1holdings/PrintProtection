@@ -39,16 +39,6 @@
     -->
     <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
     <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
-    <script type="text/javascript">
-        function toggleChevron(e) {
-            $(e.target)
-                .prev('.panel-heading')
-                .find("i.indicator")
-                .toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
-        }
-        $('#accordion').on('hidden.bs.collapse', toggleChevron);
-        $('#accordion').on('shown.bs.collapse', toggleChevron);
-    </script>
     
 </head>
 
@@ -119,223 +109,662 @@ Technical Sales Representative<br>
             <div class="col-lg-12" id="thetabs">
 
                 <ul id="myTab" class="nav nav-tabs nav-justified">
-                    <li class="active"><a href="#in-line" data-toggle="tab"><i class="fa fa-link"></i> In-Line<br /> Primers</a>
+                    <li class="active"><a href="#thermal" data-toggle="tab">Thermal</a>
                     </li>
-                    <li class=""><a href="#off-line" data-toggle="tab"><i class="fa fa-chain-broken"></i> Off-Line <br />Primers</a>
+                    <li class=""><a href="#liquid" data-toggle="tab">Liquid</a>
                     </li>
-                    <li class=""><a href="#opv" data-toggle="tab"><i class="fa fa-paint-brush"></i> Over Print<br /> Varnishes</a>
+                    <li class=""><a href="#psa" data-toggle="tab">Pressure Sensitive Adhesive</a>
                     </li>
-                    <li class=""><a href="#custom" data-toggle="tab"><i class="fa fa-crosshairs"></i> Custom Primers<br /> & Varnishes</a>
+                    <!--<li class=""><a href="#custom" data-toggle="tab"><i class="fa fa-crosshairs"></i> Custom Primers<br /> & Varnishes</a>
                     </li>
                     <li class=""><a href="#video" data-toggle="tab"><i class="fa fa-crosshairs"></i> How-To<br /> Videos</a>
                     </li>
-                    <li class=""><a href="#chart" data-toggle="tab"><i class="fa fa-table"></i> Comparison<br /> Chart</a>
-                    </li>
+                     <li class=""><a href="#chart" data-toggle="tab"><i class="fa fa-table"></i> Comparison<br /> Chart</a>
+                    </li> -->
                 </ul>
 
                 <div id="tabs" class="tab-content">
-                    <div class="tab-pane fade active in" id="in-line">
-                     <!-- In-Line Primers Section -->
-                <div class="row">
-                <div class="col-lg-12">
-                <h3 class="page-header">
-                    In-Line Primers
-                </h3>
-                <p>LexJet is the number one distributor of Michelman In-Line Primers in the US and Canada.  Michelman provides the ONLY HP certified primer for your HP Indigo Press.   
-                If you have any issues with priming via your ILP unit, please contact us immediately.  We have tons of technical experience and are here to help. If you don’t see something that fits your needs, please check out the custom section.</p>
-                </div>
-            <div class="col-lg-8 nopadding">
-            <div class="col-md-6">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4> HP Indigo® <br/>30000</h4>
-                        
-                    </div>
-                    <div class="panel-body">
-                        <img class="img-responsive" src="img/prime-hpi30000.jpg" >
-                        <br />
-                        <div class="panel panel-default text-center">
-                            <div class="panel-body">
-                                <img src="img/michelman-140.png" style="display:block; margin:auto;">
-                                <h4>In-Line  Primer (DP060)</h4>
-                                <p>Universal primer exclusively for the 30000 model.</p>
-                                <a href="http://cdn.lexjet.com/marketing/files/DP060_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                                <a href="http://cdn.lexjet.com/marketing/files/DP060-TDS.pdf" target="_blank" class="btn btn-primary">TDS</a>
+                    <div class="tab-pane fade active in" id="thermal">
+                         <!-- In-Line Primers Section -->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h3 class="page-header">
+                                        Thermal
+                                    </h3>
+                                    <p>LexJet’s thermal laminates provide high clarity, increased bond strength, superior resistance to abrasion, water, oil, acid and alkali and are perfect for high-production runs on bond inkjet paper, microporous-coated inkjet paper, electrostatic and continuous tone photographic prints.</p>
+
+                                    <p>Compatibility:
+                                        <ul>
+                                            <li>When thermal laminating, you want to use a dimensionally stable media</li>
+                                            <li>Thermal laminates will not stick consistently to swellable coatings </li>
+                                            <li>Thermal laminates work perfectly on any microporous coated paper/polyester</li>
+                                            <li>Thermal laminates will work on hybrid coatings, but not as good as microporous</li>
+                                            <li>Thermal laminates will work on macroporous coatings, but many macroporous coated products are not good to thermal laminate as they are vinyl</li>
+                                        </ul>
+                                    </p>
+
+                                    <p>Suggested Settings:
+                                        <ul>
+                                            <li>Pressure: 40-60 psi</li>
+                                            <li>Speed: 2-3 feet/min</li>
+                                            <li>Heat: 80-100 deg F</li>
+                                            <li>Tension: None</li>
+                                        </ul>
+                                    </p>
+
+                                            <table>
+                                                <!-- <thead>
+                                                  <tr>
+                                                    <th>&nbsp;</th>
+                                                    <th class="headertext"><div>Brush</div></th>
+                                                    <th class="headertext"><div>Roll</div></th>
+                                                    <th class="headertext"><div>Spray</div></th>
+                                                    <th class="headertext"><div>Liquid</div></th>
+                                                  </tr>
+                                                </thead> -->
+                                                <tbody>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                  <td>&nbsp;</td>
+                                                  <td colspan="3">
+                                                    <h2>ClearShield&#8482; 3 Mil Luster UV Standard Low Melt</h2><p>ClearShield™ 3 Mil Luster UV Standard Low Melt Laminating Film is a clear polyester film with a pleasing, lustrous finish. It provides an economical way to protect maps, photos, drawings, posters, presentations and other prints that will be handled frequently or displayed in rooms where they might be exposed to sunlight, fluorescent lights, water, airborne chemicals or cleaning solvents.</p>
+                                                  </td>
+                                                </tr>
+                                                  <tr>
+                                                    <td>
+                                                      <h2>ClearShield&#8482; 3 Mil Luster UV Standard Low Melt</h2>
+                                                      <p>ClearShield&#8482; 3 Mil Luster UV Standard Low Melt Laminating Film is a clear polyester film with a pleasing, lustrous finish. It provides an economical way to protect maps, photos, drawings, posters, presentations and other prints that will be handled frequently or displayed in rooms where they might be exposed to sunlight, fluorescent lights, water, airborne chemicals or cleaning solvents.</p></td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-7616-ClearShield-3-Mil-Luster-UV-Standard-Low-Melt.aspx">LEARN MORE</a></button></td>
+                                                    <!-- <td><img class="icon" src="img/brushicon.png"></td>
+                                                    <td><img class="icon" src="img/rollicon.png"></td>
+                                                    <td>&nbsp;</td> -->
+                                                  </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>ClearShield&#8482; 3 Mil Matte UV Standard Low Melt</h2><p>ClearShield&#8482; 3 Mil Luster UV Standard Low Melt Laminating Film is a clear polyester film with a pleasing, lustrous finish. It provides an economical way to protect maps, photos, drawings, posters, presentations and other prints that will be handled frequently or displayed in rooms where they might be exposed to sunlight, fluorescent lights, water, airborne chemicals or cleaning solvents.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                      <h2>ClearShield&#8482; 3 Mil Matte UV Standard Low Melt</h2>
+                                                      <p>ClearShield&#8482; 3 Mil Matte UV Standard Low Melt Laminating Film is a clear polyester film with a non-reflective matte finish. It provides an economical way to protect maps, photos, drawings, posters, presentations and other prints that will be handled frequently or displayed in rooms where they might be exposed to sunlight, fluorescent lights, water, airborne chemicals or cleaning solvents.</p></td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-7617-ClearShield-3-Mil-Matte-UV-Standard-Low-Melt.aspx">LEARN MORE</a></button></td>
+                                                    <!-- <td><img class="icon" src="img/brushicon.png"></td>
+                                                    <td><img class="icon" src="img/rollicon.png"></td>
+                                                    <td>&nbsp;</td> -->
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>ClearShield&#8482; 5 Mil Gloss UV Standard Low Melt</h2><p>ClearShield&#8482; 5 Mil Gloss UV Standard Low Melt Laminating Film is a clear polyester film with a glossy finish that makes colors really pop.</p>
+
+                                                        <p>This laminating film provides an economical way to protect maps, photos, drawings, posters, presentations and other prints that will be handled frequently or displayed in rooms where they might be exposed to sunlight, fluorescent lights, water, airborne chemicals or cleaning solvents.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>ClearShield&#8482; 5 Mil Gloss UV Standard Low Melt</h2>
+                                                        <p>ClearShield&#8482; 5 Mil Gloss UV Standard Low Melt Laminating Film is a clear polyester film with a glossy finish that makes colors really pop.</p>
+
+                                                        <p>This laminating film provides an economical way to protect maps, photos, drawings, posters, presentations and other prints that will be handled frequently or displayed in rooms where they might be exposed to sunlight, fluorescent lights, water, airborne chemicals or cleaning solvents.</p></td>
+                                                        <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-7618-ClearShield-5-Mil-Gloss-UV-Standard-Low-Melt.aspx">LEARN MORE</a></button></td>
+                                                        <!-- <td><img class="icon" src="img/brushicon.png"></td>
+                                                        <td><img class="icon" src="img/rollicon.png"></td>
+                                                        <td>&nbsp;</td> -->
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>ClearShield&#8482; 5 Mil Luster UV Standard Low Melt</h2><p>ClearShield&#8482; 5 Mil Luster UV Standard Low Melt Laminating Film is a clear polyester film with a pleasing, lustrous finish.</p>
+                                                        <p>This laminating film provides an economical way to protect maps, photos, drawings, posters, presentations and other prints that will be handled frequently or displayed in rooms where they might be exposed to sunlight, fluorescent lights, water, airborne chemicals or cleaning solvents.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>ClearShield&#8482; 5 Mil Luster UV Standard Low Melt</h2>
+                                                        <p>ClearShield&#8482; 5 Mil Luster UV Standard Low Melt Laminating Film is a clear polyester film with a pleasing, lustrous finish.</p>
+                                                        <p>This laminating film provides an economical way to protect maps, photos, drawings, posters, presentations and other prints that will be handled frequently or displayed in rooms where they might be exposed to sunlight, fluorescent lights, water, airborne chemicals or cleaning solvents.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-7620-ClearShield-5-Mil-Luster-UV-Standard-Low-Melt.aspx">LEARN MORE</a></button></td>
+                                                  </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>ClearShield&#8482; 10 Mil Gloss UV Standard Low Melt</h2><p>ClearShield&#8482; 10 Mil Gloss UV Standard Low Melt Laminating Film is a clear polyester film with a high-gloss finish that makes colors pop.</p>
+                                                        <p>This laminating film provides an economical way to protect maps, photos, drawings, posters, presentations and other prints that will be handled frequently or displayed in rooms where they might be exposed to sunlight, fluorescent lights, water, airborne chemicals or cleaning solvents.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>ClearShield&#8482; 10 Mil Gloss UV Standard Low Melt</h2>
+                                                        <p>ClearShield&#8482; 10 Mil Gloss UV Standard Low Melt Laminating Film is a clear polyester film with a high-gloss finish that makes colors pop.</p>
+                                                        <p>This laminating film provides an economical way to protect maps, photos, drawings, posters, presentations and other prints that will be handled frequently or displayed in rooms where they might be exposed to sunlight, fluorescent lights, water, airborne chemicals or cleaning solvents.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-7621-ClearShield-10-Mil-Gloss-UV-Standard-Low-Melt.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>ClearShield&#8482; 3 Mil Gloss UV Premium Low Melt</h2><p>ClearShield&#8482; 3 Mil Gloss UV Premium Low Melt laminating film provides the clarity and adhesive strength needed to protect inkjet prints on bond papers or inkjet photo papers with microporous coatings. This film is also good for protecting photographs processed through photo imagers such as the Durst Lambda, Lightjet or Chromira or graphics printed on electrographic (toner-based) printers.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>ClearShield&#8482; 3 Mil Gloss UV Premium Low Melt</h2>
+                                                        <p>ClearShield&#8482; 3 Mil Gloss UV Premium Low Melt laminating film provides the clarity and adhesive strength needed to protect inkjet prints on bond papers or inkjet photo papers with microporous coatings. This film is also good for protecting photographs processed through photo imagers such as the Durst Lambda, Lightjet or Chromira or graphics printed on electrographic (toner-based) printers.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-7615-ClearShield-3-Mil-Gloss-UV-Premium-Low-Melt.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>ClearShield&#8482; 5 Mil Gloss UV Premium Low Melt</h2><p>ClearShield&#8482; 5 Mil Gloss UV Premium Low Melt laminating film provides the clarity and adhesive strength needed to protect inkjet prints on bond papers or inkjet photo papers with microporous coatings. This film is also good for protecting photographs processed through photo imagers such as the Durst Lambda, Lightjet, or Chromira or graphics printed on electrographic (toner-based) printers.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>ClearShield&#8482; 5 Mil Gloss UV Premium Low Melt</h2>
+                                                        <p>ClearShield&#8482; 5 Mil Gloss UV Premium Low Melt laminating film provides the clarity and adhesive strength needed to protect inkjet prints on bond papers or inkjet photo papers with microporous coatings. This film is also good for protecting photographs processed through photo imagers such as the Durst Lambda, Lightjet, or Chromira or graphics printed on electrographic (toner-based) printers.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-7622-ClearShield-5-Mil-Gloss-UV-Premium-Low-Melt.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>ClearShield&#8482; 10 Mil Gloss UV Premium Low Melt</h2><p>ClearShield&#8482; 10 Mil Gloss UV Premium Low Melt Laminating Film is a clear polyester film with a high-gloss finish that makes colors pop.</p>
+                                                        <p>This laminating film provides an economical way to protect maps, photos, drawings, posters, presentations and other prints that will be handled frequently or displayed in rooms where they might be exposed to sunlight, fluorescent lights, water, airborne chemicals or cleaning solvents.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>ClearShield&#8482; 10 Mil Gloss UV Premium Low Melt</h2>
+                                                        <p>ClearShield&#8482; 10 Mil Gloss UV Premium Low Melt Laminating Film is a clear polyester film with a high-gloss finish that makes colors pop.</p>
+                                                        <p>This laminating film provides an economical way to protect maps, photos, drawings, posters, presentations and other prints that will be handled frequently or displayed in rooms where they might be exposed to sunlight, fluorescent lights, water, airborne chemicals or cleaning solvents.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-7624-ClearShield-10-Mil-Gloss-UV-Premium-Low-Melt.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>ClearShield&#8482; 5 Mil Textured Hard Coat Low Melt</h2><p>ClearShield&#8482; 5 Mil Textured Hard Coat Low Melt laminating film provides a fast, cost-effective option for converting output from digital photo imagers and toner-based presses into durable mural panels and headers for trade-show booth graphics. Resembling polycarbonate and Lexan, ArmorGuard features a textured finish that minimizes glare and the appearance of fingerprints.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>ClearShield&#8482; 5 Mil Textured Hard Coat Low Melt</h2>
+                                                        <p>ClearShield&#8482; 5 Mil Textured Hard Coat Low Melt laminating film provides a fast, cost-effective option for converting output from digital photo imagers and toner-based presses into durable mural panels and headers for trade-show booth graphics. Resembling polycarbonate and Lexan, ArmorGuard features a textured finish that minimizes glare and the appearance of fingerprints.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-7625-ClearShield-5-Mil-Textured-Hard-Coat-Low-Melt.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>ClearShield&#8482; 10 Mil Textured Hard Coat Low Melt</h2><p>ClearShield&#8482; 10 Mil Textured Hard Coat Low Melt laminating film provides a fast, cost-effective option for converting output from digital photo imagers and toner-based presses into durable mural panels and headers for trade-show booth graphics. Resembling polycarbonate and Lexan, ArmorGuard features a textured finish that minimizes glare and the appearance of fingerprints.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>ClearShield&#8482; 10 Mil Textured Hard Coat Low Melt</h2>
+                                                        <p>ClearShield&#8482; 10 Mil Textured Hard Coat Low Melt laminating film provides a fast, cost-effective option for converting output from digital photo imagers and toner-based presses into durable mural panels and headers for trade-show booth graphics. Resembling polycarbonate and Lexan, ArmorGuard features a textured finish that minimizes glare and the appearance of fingerprints.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-7630-ClearShield-10-Mil-Textured-Hard-Coat-Low-Melt.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>ClearShield&#8482; 5 Mil Smooth Hard Coat Low Melt </h2><p>ClearShield&#8482; 5 Mil Smooth Hard Coat Low Melt is a low-melt thermal laminating film that can help convert silver-halide-processed photo prints and prints from electrographic (toner-based) presses into indestructible graphics for trade-show and exhibit graphics.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>ClearShield&#8482; 5 Mil Smooth Hard Coat Low Melt </h2>
+                                                        <p>ClearShield&#8482; 5 Mil Smooth Hard Coat Low Melt is a low-melt thermal laminating film that can help convert silver-halide-processed photo prints and prints from electrographic (toner-based) presses into indestructible graphics for trade-show and exhibit graphics.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-7631-ClearShield-5-Mil-Smooth-Hard-Coat-Low-Melt.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>ClearShield&#8482; 10 Mil Smooth Hard Coat Low Melt</h2><p>ClearShield&#8482; 10 Mil Smooth Hard Coat Low Melt is a low-melt thermal laminating film that can help convert silver-halide-processed photo prints and prints from electrographic (toner-based) presses into indestructible graphics for trade-show and exhibit graphics.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>ClearShield&#8482; 10 Mil Smooth Hard Coat Low Melt</h2>
+                                                        <p>ClearShield&#8482; 10 Mil Smooth Hard Coat Low Melt is a low-melt thermal laminating film that can help convert silver-halide-processed photo prints and prints from electrographic (toner-based) presses into indestructible graphics for trade-show and exhibit graphics.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-7632-ClearShield-10-Mil-Smooth-Hard-Coat-Low-Melt.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>ClearShield&#8482; 1.7 Mil Standard Gloss Low Melt</h2><p>ClearShield&#8482; 1.7 Mil Standard Gloss Low Melt Laminating Film is a clear polyester film with a high-gloss finish that makes colors pop.</p>
+                                                        <p>This laminating film provides an economical way to protect maps, photos, drawings, posters, presentations, and other prints that will be handled frequently or displayed in rooms where they might be exposed to sunlight, fluorescent lights, water, airborne chemicals, or cleaning solvents.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>ClearShield&#8482; 1.7 Mil Standard Gloss Low Melt</h2>
+                                                        <p>ClearShield&#8482; 1.7 Mil Standard Gloss Low Melt Laminating Film is a clear polyester film with a high-gloss finish that makes colors pop.</p>
+                                                        <p>This laminating film provides an economical way to protect maps, photos, drawings, posters, presentations, and other prints that will be handled frequently or displayed in rooms where they might be exposed to sunlight, fluorescent lights, water, airborne chemicals, or cleaning solvents.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-7633-ClearShield-17-Mil-Luster-UV-Standard-Low-Melt.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>ClearShield&#8482; 5 Mil White Backer Low Melt</h2><p>ClearShield&#8482; 5 Mil White Backer Low Melt is a white, polyester film designed to be applied to the back of a display graphic to add rigidity and opacity. The extra rigidity makes graphics easier to handle and install. The whiteness of the film provides the opacity needed to ensure that graphics remain readable in a wide range of lighting conditions.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>ClearShield&#8482; 5 Mil White Backer Low Melt</h2>
+                                                        <p>ClearShield&#8482; 5 Mil White Backer Low Melt is a white, polyester film designed to be applied to the back of a display graphic to add rigidity and opacity. The extra rigidity makes graphics easier to handle and install. The whiteness of the film provides the opacity needed to ensure that graphics remain readable in a wide range of lighting conditions.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-7644-ClearShield-5-Mil-White-Backer-Low-Melt.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>ClearShield&#8482; 10 Mil White Backer Low Melt</h2><p>ClearShield&#8482; 10 Mil White Backer Low Melt is a white, polyester film designed to be applied to the back of a display graphic to add rigidity and opacity. The extra rigidity makes graphics easier to handle and install. The whiteness of the film provides the opacity needed to ensure that graphics remain readable in a wide range of lighting conditions.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>ClearShield&#8482; 10 Mil White Backer Low Melt</h2>
+                                                        <p>ClearShield&#8482; 10 Mil White Backer Low Melt is a white, polyester film designed to be applied to the back of a display graphic to add rigidity and opacity. The extra rigidity makes graphics easier to handle and install. The whiteness of the film provides the opacity needed to ensure that graphics remain readable in a wide range of lighting conditions.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-7645-ClearShield-10-Mil-White-Backer-Low-Melt.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>ClearShield&#8482; 5 Mil Opaque Backer Low Melt</h2><p>ClearShield&#8482; 5 Mil Opaque Backer Low Melt is a 100% opaque, white, polyester film designed to be applied to the back of a trade show graphic. It is flexible enough to allow graphics to be rolled into shipping containers, but provides enough rigidity and lay-flat memory to enable the graphics to remain flat and curl-free when mounted. The light-blocking capability and lay-flat memory of this film make it a good choice to use with ArmorGuard or DisplayGuard to encapsulate images that will be mounted in pop-up booths.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>ClearShield&#8482; 5 Mil Opaque Backer Low Melt</h2>
+                                                        <p>ClearShield&#8482; 5 Mil Opaque Backer Low Melt is a 100% opaque, white, polyester film designed to be applied to the back of a trade show graphic. It is flexible enough to allow graphics to be rolled into shipping containers, but provides enough rigidity and lay-flat memory to enable the graphics to remain flat and curl-free when mounted. The light-blocking capability and lay-flat memory of this film make it a good choice to use with ArmorGuard or DisplayGuard to encapsulate images that will be mounted in pop-up booths.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-7646-ClearShield-5-Mil-Opaque-Backer-Low-Melt.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>ClearShield&#8482; 10 Mil Opaque Backer Low Melt</h2><p>ClearShield&#8482; 10 Mil Opaque Backer Low Melt is a 100% opaque, white, polyester film designed to be applied to the back of a trade-show graphic. It is flexible enough to allow graphics to be rolled into shipping containers, but provides enough rigidity and lay-flat memory to enable the graphics to remain flat and curl-free when mounted. The light-blocking capability and lay-flat memory of this film make it a good choice to use with ArmorGuard or DisplayGuard to encapsulate images that will be mounted in pop-up booths.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>ClearShield&#8482; 10 Mil Opaque Backer Low Melt</h2>
+                                                        <p>ClearShield&#8482; 10 Mil Opaque Backer Low Melt is a 100% opaque, white, polyester film designed to be applied to the back of a trade-show graphic. It is flexible enough to allow graphics to be rolled into shipping containers, but provides enough rigidity and lay-flat memory to enable the graphics to remain flat and curl-free when mounted. The light-blocking capability and lay-flat memory of this film make it a good choice to use with ArmorGuard or DisplayGuard to encapsulate images that will be mounted in pop-up booths.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-7647-ClearShield-10-Mil-Opaque-Backer-Low-Melt.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>ClearShield&#8482; 15 Mil Opaque Backer Low Melt</h2><p>ClearShield&#8482; 15 Mil Opaque Backer Low Melt is a 100% opaque, white, polyester film designed to be applied to the back of a trade show graphic. It is flexible enough to allow graphics to be rolled into shipping containers, but provides enough rigidity and lay-flat memory to enable the graphics to remain flat and curl-free when mounted.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>ClearShield&#8482; 15 Mil Opaque Backer Low Melt</h2>
+                                                        <p>ClearShield&#8482; 15 Mil Opaque Backer Low Melt is a 100% opaque, white, polyester film designed to be applied to the back of a trade show graphic. It is flexible enough to allow graphics to be rolled into shipping containers, but provides enough rigidity and lay-flat memory to enable the graphics to remain flat and curl-free when mounted.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-7648-ClearShield-15-Mil-Opaque-Backer-Low-Melt.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>ClearShield&#8482; 3 Mil SoftFeel Low Melt</h2><p>ClearShield&#8482; 3 Mil SoftFeel Low Melt thermal laminating film has a unique tactile finish and an extra matte look.  This is a specialty laminate designed to add elegance to your graphic.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>ClearShield&#8482; 3 Mil SoftFeel Low Melt</h2>
+                                                        <p>ClearShield&#8482; 3 Mil SoftFeel Low Melt thermal laminating film has a unique tactile finish and an extra matte look.  This is a specialty laminate designed to add elegance to your graphic.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-7567-ClearShield-3-Mil-Soft-Feel-Low-Melt-Laminate.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>ClearShield&#8482; 5 Mil SoftFeel Low Melt</h2><p>ClearShield&#8482; 5 Mil SoftFeel Low Melt thermal laminating film has a unique tactile finish and an extra matte look.  This is a specialty laminate designed to add elegance to your graphic.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>ClearShield&#8482; 5 Mil SoftFeel Low Melt</h2>
+                                                        <p>ClearShield&#8482; 5 Mil SoftFeel Low Melt thermal laminating film has a unique tactile finish and an extra matte look.  This is a specialty laminate designed to add elegance to your graphic.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-7635-ClearShield-5-Mil-SoftFeel-Low-Melt.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                             </tbody>
+                                        </table>
+                                </div>
                             </div>
                         </div>
-                        
-                        <strong>Note: </strong>To <a href="https://www.youtube.com/watch?v=zXj7NvgtvXk" rel="prettyPhoto" title="Evaluating Print Performance">check for proper coating  coverage</a>, we recommend the DigiPrime® (MI-102) Indicator Solution.
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4>HP Indigo® <br/> 20000</h4>
-                    </div>
-                    <div class="panel-body">
-                    <img class="img-responsive" src="img/prime-hpi20000.jpg">
-                        <br />
-                        <div class="panel panel-default text-center">
-                            <div class="panel-body">
-                                <img src="img/michelman-140.png" style="display:block; margin:auto;">
-                                <h4>In-Line Primer (DP050)</h4>
-                                <p>Universal primer exclusively for the 20000 model.</p>
-                                <a href="http://cdn.lexjet.com/marketing/files/DP050_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                                <a href="http://cdn.lexjet.com/marketing/files/DP050-TDS.pdf" target="_blank" class="btn btn-primary">TDS</a>
+                                                 <!-- <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3"><h2>ClearShield Classic Lite</h2><p>"A low-viscosity water-based liquid coating for enhanced UV-protection, chemical and abrasion resistance. Can be hand applied by hand with a brush, roller or with automated spray equipment. Classic Lite offers the same great protection as ClearShield Classic but is an option for those seeking a laminate with a lower viscosity."</p></td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>
+                                                      <h2>ClearShield Classic Lite</h2>
+                                                      <p>"A low-viscosity water-based liquid coating for enhanced UV-protection, chemical and abrasion resistance. Can be hand applied by hand with a brush, roller or with automated spray equipment. Classic Lite offers the same great protection as ClearShield Classic but is an option for those seeking a laminate with a lower viscosity."</p></td>
+                                                    <td><img class="icon" src="img/brushicon.png"></td>
+                                                    <td><img class="icon" src="img/rollicon.png"></td>
+                                                    <td><img class="icon" src="img/sprayicon.png"></td>
+                                                    <td>&nbsp;</td>
+                                                  </tr>
+                                                  <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3"><h2>ClearShield Wall Armor</h2><p>"Our Type II Certfied solution specifically formulated for wall covering applications. Wall Armor is compatible with latex, eco-solvent, and UV inks and is both scratch &amp; stain resistant. Wall Armor can be applied by hand in a brush or roll application, by automated spray equipment or with a liquid laminator such as the StarLam 1600R."</p></td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>
+                                                      <h2>ClearShield Wall Armor</h2>
+                                                      <p>"Our Type II Certfied solution specifically formulated for wall covering applications. Wall Armor is compatible with latex, eco-solvent, and UV inks and is both scratch &amp; stain resistant. Wall Armor can be applied by hand in a brush or roll application, by automated spray equipment or with a liquid laminator such as the StarLam 1600R."</p></td>
+                                                    <td><img class="icon" src="img/brushicon.png"></td>
+                                                    <td><img class="icon" src="img/rollicon.png"></td>
+                                                    <td><img class="icon" src="img/sprayicon.png"></td>
+                                                    <td><img class="icon" src="img/liquidicon.png"></td>
+                                                  </tr>
+                                                  <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3"><h2>ClearShield StarLam</h2><p>"ClearShield for the StarLam is specifically designed for use on our StarLam roll-to-roll laminator and it also works on other liquid laminators with the same great results. ClearShield for the StarLam provides enhanced UV-protection, as well as chemical and abrasion resistance."</p></td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>
+                                                      <h2>ClearShield StarLam</h2>
+                                                      <p>"ClearShield for the StarLam is specifically designed for use on our StarLam roll-to-roll laminator and it also works on other liquid laminators with the same great results. ClearShield for the StarLam provides enhanced UV-protection, as well as chemical and abrasion resistance."</p></td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                    <td><img class="icon" src="img/liquidicon.png"></td>
+                                                  </tr>
+                                                  <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3"><h2>ClearShield Canvas Guard</h2><p>"ClearShield Canvas Guard is specifically formulated for use over water-resistant canvas and Gicleé applications. Canvas Guard is highly flexible allowing the user to stretch their canvas after coating. Canvas Guard is the ultimate protection for canvas."</p></td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>
+                                                      <h2>ClearShield Canvas Guard</h2>
+                                                      <p>"ClearShield Canvas Guard is specifically formulated for use over water-resistant canvas and Gicleé applications. Canvas Guard is highly flexible allowing the user to stretch their canvas after coating. Canvas Guard is the ultimate protection for canvas."</p></td>
+                                                    <td><img class="icon" src="img/brushicon.png"></td>
+                                                    <td><img class="icon" src="img/rollicon.png"></td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                  </tr>
+                                                  <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3"><h2>ClearShield Canvas Guard StarLam</h2><p>"ClearShield Canvas Guard for the StarLam is formulated for use over water-resistant canvas and Gicleé applications that are coated on the StarLam roll-to-roll laminator or other automated liquid laminators. Canvas Guard for the StarLam is highly flexible allowing the user to stretch the canvas after coating."</p></td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>
+                                                      <h2>ClearShield Canvas Guard StarLam</h2>
+                                                      <p>"ClearShield Canvas Guard for the StarLam is formulated for use over water-resistant canvas and Gicleé applications that are coated on the StarLam roll-to-roll laminator or other automated liquid laminators. Canvas Guard for the StarLam is highly flexible allowing the user to stretch the canvas after coating."</p></td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                    <td><img class="icon" src="img/liquidicon.png"></td>
+                                                  </tr>
+                                                  <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3"><h2>ClearShield Production Clear</h2><p>"Originally formulated for use over eco-solvent inks, Production Clear has proven it's versatility over time as the only water-based laminate recommended for use over UV-inks as well."</p></td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>
+                                                      <h2>ClearShield Production Clear</h2>
+                                                      <p>"Originally formulated for use over eco-solvent inks, Production Clear has proven it's versatility over time as the only water-based laminate recommended for use over UV-inks as well."</p></td>
+                                                    <td><img class="icon" src="img/brushicon.png"></td>
+                                                    <td><img class="icon" src="img/rollicon.png"></td>
+                                                    <td><img class="icon" src="img/sprayicon.png"></td>
+                                                    <td>&nbsp;</td>
+                                                  </tr>
+                                                  <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3"><h2>ClearShield Anti-Graffiti</h2><p>"ClearShield Anti-Graffiti is highly flexible and highly chemical and UV resistant. Anti-Graffiti is perfect for applications in high traffic areas, and makes the surface easy to clean."</p></td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>
+                                                      <h2>ClearShield Anti-Graffiti</h2>
+                                                      <p>"ClearShield Anti-Graffiti is highly flexible and highly chemical and UV resistant. Anti-Graffiti is perfect for applications in high traffic areas, and makes the surface easy to clean."</p></td>
+                                                    <td><img class="icon" src="img/brushicon.png"></td>
+                                                    <td><img class="icon" src="img/rollicon.png"></td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                  </tr>
+                                                  <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3"><h2>ClearShield A2000 Solvent-Based</h2><p>ClearJet is a solvent-based laminate for use on water-sensitive inks and substrates. ClearJet A2000 is highly flexible and easy to apply. Consider ClearJet for applications where ClearShield is not an option due to the water-sensitivity of the materials being coated.</p></td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>
+                                                      <h2>ClearJet A2000 Solvent-Based</h2>
+                                                      <p>ClearJet is a solvent-based laminate for use on water-sensitive inks and substrates. ClearJet A2000 is highly flexible and easy to apply. Consider ClearJet for applications where ClearShield is not an option due to the water-sensitivity of the materials being coated.</p></td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                    <td><img class="icon" src="img/sprayicon.png"></td>
+                                                    <td>&nbsp;</td>
+                                                  </tr>
+                                                  <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3"><h2>ClearShield Fine Art</h2><p>ClearJet Fine Art Version is our solvent-based option for fine art applications that are water-sensitive. It is highly flexible and will not cause discoloration or react with the ink jet receptive layer of fine art substrates.</p></td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>
+                                                      <h2>ClearJet Fine Art</h2>
+                                                      <p>ClearJet Fine Art Version is our solvent-based option for fine art applications that are water-sensitive. It is highly flexible and will not cause discoloration or react with the ink jet receptive layer of fine art substrates.</p></td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                    <td><img class="icon" src="img/sprayicon.png"></td>
+                                                    <td>&nbsp;</td>
+                                                  </tr> -->
+                        <!-- /.row -->
+                        <!-- In-Line Primers Section -->
+                        <div class="tab-pane" id="liquid">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h3 class="page-header">
+                                        Liquid
+                                    </h3>
+                                    <p>Liquid Laminates can be a great alternative to thermal or pressure sensitive adhesive and are effective for protecting digital prints, fine art, signs, banners and other products from the elements.  They produce little waste and are extremely economical when machine applied.  The coating process offers as much or more UV and abrasion protection as film laminates.  They also stretch and conform to uneven surfaces.</p>
+                                            <table>
+                                                <tbody>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                    <td>&nbsp;</td>
+                                                    <td colspan="3">
+                                                        <h2>Sunset Gloss Coating</h2><p>Sunset Gloss Coating is a non-yellowing, fast-drying, water-based acrylic coating that adds a tough, flexible glossy layer of protection to inkjet prints on canvas and art papers. It can be applied with brushes, high-density foam rollers, or an HPLV paint-sprayer.</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                      <h2>Sunset Gloss Coating</h2>
+                                                      <p>Sunset Gloss Coating is a non-yellowing, fast-drying, water-based acrylic coating that adds a tough, flexible glossy layer of protection to inkjet prints on canvas and art papers. It can be applied with brushes, high-density foam rollers, or an HPLV paint-sprayer.</p></td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-3290-LexJet-Sunset-Gloss-Coating.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                    <td>&nbsp;</td>
+                                                    <td colspan="3">
+                                                        <h2>Sunset Satin Coating</h2><p>Sunset Satin Coating is a non-yellowing, fast-drying, water-based acrylic coating that adds a tough, flexible layer of protection and a soft luster finish to inkjet prints on canvas and art papers. It can be applied with brushes, high-density foam rollers, or an HPLV paint-sprayer.</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                      <h2>Sunset Satin Coating</h2>
+                                                      <p>Sunset Satin Coating is a non-yellowing, fast-drying, water-based acrylic coating that adds a tough, flexible layer of protection and a soft luster finish to inkjet prints on canvas and art papers. It can be applied with brushes, high-density foam rollers, or an HPLV paint-sprayer.</p></td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-3346-LexJet-Sunset-Satin-Coating.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>EnduraCoat Transit Gloss</h2><p>EnduraCoat Transit Gloss is a flexible, stable coating for outdoor and fleet graphic applications’ compatible with (eco) solvent, UV and latex printers; outdoor durable.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>EnduraCoat Transit Gloss</h2>
+                                                        <p>EnduraCoat Transit Gloss is a flexible, stable coating for outdoor and fleet graphic applications’ compatible with (eco) solvent, UV and latex printers; outdoor durable.</p></td>
+                                                        <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-6417-LexJet-EnduraCoat-Transit-Gloss.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>EnduraCoat Sign &amp; Banner Gloss</h2><p>EnduraCoat Sign &amp; Banner is a flexible, low VOC acrylic aqueous clear coat specially formulated for use on digitally printed PVC’s used for signs and banners.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>EnduraCoat Sign &amp; Banner Gloss</h2>
+                                                        <p>EnduraCoat Sign &amp; Banner is a flexible, low VOC acrylic aqueous clear coat specially formulated for use on digitally printed PVC’s used for signs and banners.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-6416-LexJet-EnduraCoat-Sign-Banner-Gloss.aspx">LEARN MORE</a></button></td>
+                                                  </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>EnduraCoat Photo Lustre</h2><p>EnduraCoat Photo Lustre is a photo coating that provide UV and scratch protection; can be used with Accu18XE coater.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>EnduraCoat Photo Lustre</h2>
+                                                        <p>EnduraCoat Photo Lustre is a photo coating that provide UV and scratch protection; can be used with Accu18XE coater</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-6415-LexJet-EnduraCoat-Photo-Lustre.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>EnduraCoat UltraMural</h2><p>EnduraCoat UltraMural is a flat matte, fade and mold-resistant coating for digitally printed wall coverings; outdoor durable.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>EnduraCoat UltraMural</h2>
+                                                        <p>EnduraCoat UltraMural is a flat matte, fade and mold-resistant coating for digitally printed wall coverings; outdoor durable.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-6420-LexJet-EnduraCoat-UltraMural.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>EnduraCoat UltraFlex Gloss</h2><p>EnduraCoat UltraFlex Gloss is a flexible, highly stable coating for vehicle wrap applications; outdoor durable. Recommended for the latex inks.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>EnduraCoat UltraFlex Gloss</h2>
+                                                        <p>EnduraCoat UltraFlex Gloss is a flexible, highly stable coating for vehicle wrap applications; outdoor durable. Recommended for the latex inks.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-6419-LexJet-EnduraCoat-UltraFlex-Gloss.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>EnduraCoat Transit Matte</h2><p>EnduraCoat Transit Matte is a flexible, stable coating for outdoor and fleet graphic applications’ compatible with (eco) solvent, UV and latex printers; outdoor durable.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>EnduraCoat Transit Matte</h2>
+                                                        <p>EnduraCoat Transit Matte is a flexible, stable coating for outdoor and fleet graphic applications’ compatible with (eco) solvent, UV and latex printers; outdoor durable.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-6418-LexJet-EnduraCoat-Transit-Matte.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>EnduraCoat Color Capture Gloss</h2><p>EnduraCoat Color Capture Gloss is highly flexible, super fast drying acrylic aqueous clear coat for use on digitally printed, water resistant canvas.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>EnduraCoat Color Capture Gloss</h2>
+                                                        <p>EnduraCoat Color Capture Gloss is highly flexible, super fast drying acrylic aqueous clear coat for use on digitally printed, water resistant canvas.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-6408-LexJet-EnduraCoat-Color-Capture-Gloss.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>EnduraCoat Color Capture Matte</h2><p>EnduraCoat Color Capture Matte is highly flexible, super fast drying acrylic aqueous clear coat for use on digitally printed, water resistant canvas.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>EnduraCoat Color Capture Matte</h2>
+                                                        <p>EnduraCoat Color Capture Matte is highly flexible, super fast drying acrylic aqueous clear coat for use on digitally printed, water resistant canvas.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-6410-LexJet-EnduraCoat-Color-Capture-Matte.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>EnduraCoat Color Capture Wallpaper Matte</h2><p>Specific for digitally printed wallpaper, this matte finish acrylic aqueous clear coat is highly flexible and offers a super fast drying time.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>EnduraCoat Color Capture Wallpaper Matte</h2>
+                                                        <p>Specific for digitally printed wallpaper, this matte finish acrylic aqueous clear coat is highly flexible and offers a super fast drying time.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-6411-LexJet-EnduraCoat-Color-Capture-Wallpaper-Matte.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>EnduraCoat Photo Gloss</h2><p>EnduraCoat Photo Gloss is photo coatings that provide UV and scratch protection; can be used with Accu18XE coater.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>EnduraCoat Photo Gloss</h2>
+                                                        <p>EnduraCoat Photo Gloss is photo coatings that provide UV and scratch protection; can be used with Accu18XE coater.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-6414-LexJet-EnduraCoat-Photo-Gloss.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>EnduraCoat Intego Matte</h2><p>EnduraCoat Intego Matte is quick dry, low cost coating designed for hand or mop-on application; outdoor durable.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>EnduraCoat Intego Matte</h2>
+                                                        <p>EnduraCoat Intego Matte is quick dry, low cost coating designed for hand or mop-on application; outdoor durable.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-6413-LexJet-EnduraCoat-Intego-Matte.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>EnduraCoat Intego Gloss</h2><p>EnduraCoat Intego Gloss is quick dry, low cost coating designed for hand or mop-on application; outdoor durable.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>EnduraCoat Intego Gloss</h2>
+                                                        <p>EnduraCoat Intego Gloss is quick dry, low cost coating designed for hand or mop-on application; outdoor durable.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-6412-LexJet-EnduraCoat-Intego-Gloss.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                             </tbody>
+                                        </table>
+                                </div>
                             </div>
-                        </div>                    
-                        
-                        <strong>Note:</strong> To <a href="https://www.youtube.com/watch?v=zXj7NvgtvXk" rel="prettyPhoto" title="Evaluating Print Performance">check for proper coating  coverage</a>, we recommend the DigiPrime® (MI-102) Indicator Solution.
-                       
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-6">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4> HP Indigo® <br/>W7200 Series</h4>
-                    </div>
-                    <div class="panel-body">
-                        <img class="img-responsive" src="img/prime-hpi7200.jpg" >
-                        <br />
-                        <div class="panel panel-default text-center">
-                            <div class="panel-body">
-                                <img src="img/michelman-140.png" style="display:block; margin:auto;">
-                                <h4>In-Line  Primer (Q4324A)</h4>
-                                <p>Designed for coated substrates.</p>
-                                <a href="http://cdn.lexjet.com/marketing/files/Q4324A_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                                <a href="http://cdn.lexjet.com/marketing/files/TDS - Q4324A.pdf" target="_blank" class="btn btn-primary">TDS</a>
-                        </div>  
-                        </div>                      
-                       
-                        <div class="panel panel-default text-center">
-                            <div class="panel-body">
-                                <img src="img/michelman-140.png" style="display:block; margin:auto;">
-                                <h4>In-Line  Primer (Q4325A)</h4>
-                                <p>Designed for uncoated substrates.</p>
-                                <a href="http://cdn.lexjet.com/marketing/files/Q4325A_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                                <a href="http://cdn.lexjet.com/marketing/files/TDS - Q4325A.pdf" target="_blank" class="btn btn-primary">TDS</a>
                         </div>
-                        </div> 
-                        
-                        <strong>Note:</strong> To <a href="https://www.youtube.com/watch?v=zXj7NvgtvXk" rel="prettyPhoto" title="Evaluating Print Performance">check for proper coating  coverage</a>, we recommend the Sapphire Indicator Solution.</p>
-                        
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-6">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4> HP Indigo® <br/>W3250 Series</h4>
-                    </div>
-                    <div class="panel-body">
-                        <img class="img-responsive" src="img/prime-hpi3250.jpg" >
-                        <br />
-                        <div class="panel panel-default text-center">
-                            <div class="panel-body">
-                                <img src="img/michelman-140.png" style="display:block; margin:auto;">
-                                <h4>In-Line  Primer (Q4304A)</h4>
-                                <p>Designed for coated substrates.</p>
-                                <a href="http://cdn.lexjet.com/marketing/files/Q4304A_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                                <a href="http://cdn.lexjet.com/marketing/files/TDS - Q4304A.pdf" target="_blank" class="btn btn-primary">TDS</a>
-                        </div>  
-                        </div> 
-
-
-                        <div class="panel panel-default text-center">
-                            <div class="panel-body">
-                                <img src="img/michelman-140.png" style="display:block; margin:auto;">
-                                <h4>In-Line  Primer (Q4305A)</h4>
-                                <p>Designed for uncoated substrates.</p>
-                                <a href="http://cdn.lexjet.com/marketing/files/Q4305A-SDS-AGHS-en-CIN.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                                <a href="http://cdn.lexjet.com/marketing/files/Q4305A-TDS.pdf" target="_blank" class="btn btn-primary">TDS</a>
-                        </div>  
-                        </div>                                                 
-                        
-                        <strong>Note: </strong>To <a href="https://www.youtube.com/watch?v=zXj7NvgtvXk" rel="prettyPhoto" title="Evaluating Print Performance">check for proper coating  coverage</a>, we recommend the Sapphire Indicator Solution.</p>
-                        
-                    </div>
-                </div>
-            </div>                    
-        
-        </div>
-        <div class="col-lg-4">
-        
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4> HP Indigo® <br/>WS6000 & WS6600 & WS6800</h4>
-                    </div>
-                    <div class="panel-body">
-                        <img class="img-responsive" src="img/prime-hpi6600.jpg">
-                        <br />
-                        <div class="panel panel-default text-center">
-                            <div class="panel-body">
-                                <img src="img/michelman-140.png" style="display:block; margin:auto;">
-                                <h4>In-Line  Primer (ILP030)</h4>
-                                <p>Universal Primer that works for 95% of all substrates.</p>
-                                <a href="http://cdn.lexjet.com/marketing/files/ILP030_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                                <a href="http://cdn.lexjet.com/marketing/files/ILP030-TDS.pdf" target="_blank" class="btn btn-primary">TDS</a>
-                        </div>  
-                        </div> 
-                     
-                        <div class="panel panel-default text-center">
-                            <div class="panel-body">
-                                <img src="img/michelman-140.png" style="display:block; margin:auto;">
-                                <h4>In-Line  Primer (ILP040)</h4>
-                                <p>Primer designed for more difficult-to-prime substrates like foils.</p>
-                                <a href="http://cdn.lexjet.com/marketing/files/ILP040_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                                <a href="http://cdn.lexjet.com/marketing/files/TDS - ILP040.pdf" target="_blank" class="btn btn-primary">TDS</a>
-                        </div>  
-                        </div>                                                 
-                        <strong>Note:</strong> To <a href="https://www.youtube.com/watch?v=zXj7NvgtvXk" rel="prettyPhoto" title="Evaluating Print Performance">check for proper coating coverage</a> with the ILP030 or ILP040 we recommend the DigiPrime MI-001 Indicator Solution. 
-                        <br /><br />
-                        <div class="panel panel-default text-center">
-                            <div class="panel-body">
-                                <img src="img/michelman-140.png" style="display:block; margin:auto;">
-                                <h4>Michem®  Cleaner 1188</h4>
-                                <p>Cleaning solution for the cleaning tank of the in-line priming unit.</p>
-                                <a href="http://cdn.lexjet.com/marketing/files/MCL1188_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                                <a href="http://cdn.lexjet.com/marketing/files/MCL1188-TDS.pdf" target="_blank" class="btn btn-primary">TDS</a>
-                        </div>  
-                        </div> 
-
-                        <div class="panel panel-default text-center">
-                            <div class="panel-body">
-                                <img src="img/michelman-140.png" style="display:block; margin:auto;">
-                                <h4>In-Line  Primer (DP680)</h4>
-                                <p>A cost effective universal primer.</p>
-                                <a href="http://cdn.lexjet.com/marketing/files/DP680-SDS-AGHS-en-CIN.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                                <a href="http://cdn.lexjet.com/marketing/files/DP680-TDS.pdf" target="_blank" class="btn btn-primary">TDS</a>
-                        </div>  
-                        </div> 
-                        <strong>Note:</strong> To <a href="https://www.youtube.com/watch?v=zXj7NvgtvXk" rel="prettyPhoto" title="Evaluating Print Performance">check for proper coating coverage</a> with the DP680 Primer, we recommend the DigiPrime® (MI-102) Indicator Solution.
-                        <br /><br />
-                        In order to run the DP680, you will need to have an additional idle roller installed in your ILP unit by HP if it wasn’t installed during initial press installation.
-                        <br /><br />
-                        HP recommends running Deionized Water in the wash tank of the ILP unit when running DP680; not the Michem Cleaner 1188.
-                       
-
-                  </div>
-               
-            </div>
-        </div>
-        </div>
-        <!-- /.row -->
-        <!-- In-Line Primers Section -->
-                    </div>
-                    <div class="tab-pane" id="off-line">
-        
         <!-- Product Panels -->
         <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-lg-12">
-                <h3 class="page-header">Off-Line Primers</h3>
+                <h3 class="page-header">Off-Line Primers</h3> -->
                 <!-- Accordian -->            
-                    <div class="panel-group" id="accordion">
+                    <!-- <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
@@ -350,9 +779,9 @@ Technical Sales Representative<br>
                             </div>
                         </div>
                     </div>
-                    </div>
+                    </div> -->
          <!-- Accordian -->
-            <p>If you don’t see something that fits your needs, please check out the custom section.</p>
+            <!-- <p>If you don’t see something that fits your needs, please check out the custom section.</p>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="panel panel-default text-center">
@@ -364,7 +793,7 @@ Technical Sales Representative<br>
                               <img src="img/michelman-140.png" style="display:block; margin:auto;">
                     </div>
                     <div class="panel-body">
-                        <h4>DigiPrime® 2000</h4>
+                        <h4>DigiPrime&reg; 2000</h4>
                         <p>Designed for uncoated and coated papers.</p>
                         <a href="http://cdn.lexjet.com/marketing/files/DP2000_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
                         <a href="http://cdn.lexjet.com/marketing/files/TDS - DP2000.pdf" target="_blank" class="btn btn-primary">TDS</a>
@@ -382,7 +811,7 @@ Technical Sales Representative<br>
                               <img src="img/michelman-140.png" style="display:block; margin:auto;">
                     </div>
                     <div class="panel-body">
-                        <h4>DigiPrime® 3000</h4>
+                        <h4>DigiPrime&reg; 3000</h4>
                         <p>Designed for uncoated and coated papers.</p>
                         <a href="http://cdn.lexjet.com/marketing/files/DP3000_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
                         <a href="http://cdn.lexjet.com/marketing/files/TDS - DP3000.pdf" target="_blank" class="btn btn-primary">TDS</a>
@@ -399,7 +828,7 @@ Technical Sales Representative<br>
                               <img src="img/michelman-140.png" style="display:block; margin:auto;">
                     </div>
                     <div class="panel-body">
-                        <h4>DigiPrime® 4431</h4>
+                        <h4>DigiPrime&reg; 4431</h4>
                         <p>Universal primer for most papers and films.</p>
                         <a href="http://cdn.lexjet.com/marketing/files/DP4431_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
                         <a href="http://cdn.lexjet.com/marketing/files/TDS - DP4431.pdf" target="_blank" class="btn btn-primary">TDS</a>
@@ -416,7 +845,7 @@ Technical Sales Representative<br>
                               <img src="img/michelman-140.png" style="display:block; margin:auto;">
                     </div>
                     <div class="panel-body">
-                        <h4>DigiPrime® 4450</h4>
+                        <h4>DigiPrime&reg; 4450</h4>
                         <p>Includes an anti-blocking agent for two-sided printing.</p>
                         <a href="http://cdn.lexjet.com/marketing/files/DP4450_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
                         <a href="http://cdn.lexjet.com/marketing/files/TDS - DP4450.pdf" target="_blank" class="btn btn-primary">TDS</a>
@@ -433,7 +862,7 @@ Technical Sales Representative<br>
                               <img src="img/michelman-140.png" style="display:block; margin:auto;">
                     </div>
                     <div class="panel-body">
-                        <h4>DigiPrime® 4453</h4>
+                        <h4>DigiPrime&reg; 4453</h4>
                         <p>Increased moisture resistance, Xeikon presses compatible.</p>
                         <a href="http://cdn.lexjet.com/marketing/files/DP4453-SDS-AGHS-en-CIN.pdf" target="_blank" class="btn btn-primary">SDS</a>
                         <a href="http://cdn.lexjet.com/marketing/files/DP4453-TDS.pdf" target="_blank" class="btn btn-primary">TDS</a>
@@ -451,7 +880,7 @@ Technical Sales Representative<br>
                               <img src="img/michelman-140.png" style="display:block; margin:auto;">
                     </div>
                     <div class="panel-body">
-                        <h4>DigiPrime® 5000</h4>
+                        <h4>DigiPrime&reg; 5000</h4>
                         <p>Designed for flexible vinyl substrates.</p>
                         <a href="http://cdn.lexjet.com/marketing/files/DP5000_SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
                         <a href="http://cdn.lexjet.com/marketing/files/TDS - DP5000.pdf" target="_blank" class="btn btn-primary">TDS</a>
@@ -493,355 +922,259 @@ Technical Sales Representative<br>
                 </div>
              </div>      
                         
-             </div>
+             </div> -->
              
         <!-- Product Panels -->
            
-             <p>DigiPrime Primers can be applied via flexo or gravure. <br /> DigiPrime: To <a href="https://www.youtube.com/watch?v=zXj7NvgtvXk" rel="prettyPhoto" title="Evaluating Print Performance">check for proper coating coverage</a> with these primers, we recommend the DigiPrime (MI-001) Indicator Solution.</p>
+             <!-- <p>DigiPrime Primers can be applied via flexo or gravure. <br /> DigiPrime: To <a href="https://www.youtube.com/watch?v=zXj7NvgtvXk" rel="prettyPhoto" title="Evaluating Print Performance">check for proper coating coverage</a> with these primers, we recommend the DigiPrime (MI-001) Indicator Solution.</p>
                         <p>Sapphire: To <a href="https://www.youtube.com/watch?v=zXj7NvgtvXk" rel="prettyPhoto" title="Evaluating Print Performance">check for proper coating coverage</a>, we recommend the Sapphire Indicator Solution.</p>
-                        <p>Topaz: To <a href="https://www.youtube.com/watch?v=zXj7NvgtvXk" rel="prettyPhoto" title="Evaluating Print Performance">check for proper coating coverage</a>, we recommend the Topaz 17 Indicator Solution.</p> 
+                        <p>Topaz: To <a href="https://www.youtube.com/watch?v=zXj7NvgtvXk" rel="prettyPhoto" title="Evaluating Print Performance">check for proper coating coverage</a>, we recommend the Topaz 17 Indicator Solution.</p>  -->
               
-                    </div>
-                    <div class="tab-pane fade" id="opv">
-                        <h3 class="page-header">Over Print Varnishes</h3>
-                        <p>We're proud to introduce a new line of Over Print Varnishes from Michelman that are both UV cured and Water Based.  Now the brand you trust for your primers covers all your narrow web label and flexible packaging needs.  This provides you with a bullet-proof solution for ink adhesion and functional protection. If you don’t see something that fits your needs, please check out the custom section.</p>
-        <div class="well">
-            <div class="row">
-                <div class="col-md-8">
-                    <p>On mobile or need to print? Download a PDF Copy.</p>
-                </div>
-                <div class="col-md-4">
-                    <a class="btn btn-lg btn-default btn-block" href="LJ-Michelman-OPVs.pdf">Download PDF</a>
-                </div>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Content Row -->
-        <div class="row">
-            <div class="col-md-12">
-                <img class="img-responsive" src="img/OPV-Table.jpg">
-            </div>
-        </div>
-        <!-- /.row -->
-                        
-                    </div>
-                    <div class="tab-pane fade" id="custom">
-                        <h3 class="page-header">Custom Primers & Coatings</h3>
-                        <p>We love to custom formulate.  If you have a specific primer or over print varnish need that you don’t find in our current line up; please let us know.  No order is too small or too large.  </p>
-         <!-- Product Panels -->
-        <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h4 class="page-header">DigiLume Line</h4>
-                <p>DigiLume products are DigiPrime® with the proprietary PreLume® additive to give you the ability to check for even coating under black light for an error free application - saving you time and money.</p>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="panel panel-default text-center">
-                    <div class="panel-heading">
-                        <span class="fa-stack fa-5x">
-                              <i class="fa fa-circle fa-stack-2x customcolor"></i>
-                              <i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </div>
-                    <div class="panel-body">
-                        <h4>DigiLume 3000</h4>
-                        <p>Excellent adhesion for various paper grades</p>
-                        <a href="#" target="_blank" class="btn btn-primary disabled">SDS</a>
-                        <a href="#" target="_blank" class="btn btn-primary disabled">TDS</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="panel panel-default text-center">
-                    <div class="panel-heading">
-                        <span class="fa-stack fa-5x">
-                              <i class="fa fa-circle fa-stack-2x customcolor"></i>
-                              <i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </div>
-                    <div class="panel-body">
-                        <h4>DigiLume 4431</h4>
-                        <p>Excellent adhesion for various paper grades</p>
-                        <a href="http://cdn.lexjet.com/marketing/files/Digilume 4431 - SDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                        <a href="http://cdn.lexjet.com/marketing/files/Digilume 4431 - TDS.pdf" target="_blank" class="btn btn-primary">TDS</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="panel panel-default text-center">
-                    <div class="panel-heading">
-                        <span class="fa-stack fa-5x">
-                              <i class="fa fa-circle fa-stack-2x customcolor"></i>
-                              <i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </div>
-                    <div class="panel-body">
-                        <h4>DigiLume 4450</h4>
-                        <p>Anti-block properties making it perfect for two sided printing.</p>
-                        <a href="#" target="_blank" class="btn btn-primary disabled">SDS</a>
-                        <a href="#" target="_blank" class="btn btn-primary disabled">TDS</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="panel panel-default text-center">
-                    <div class="panel-heading">
-                        <span class="fa-stack fa-5x">
-                              <i class="fa fa-circle fa-stack-2x customcolor"></i>
-                              <i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </div>
-                    <div class="panel-body">
-                        <h4>DigiLume 5000</h4>
-                        <p>Excellent adhesion to treated films, papers and synthetics.</p>
-                        <a href="http://cdn.lexjet.com/marketing/files/Digilume 4431 - TDS.pdf" target="_blank" class="btn btn-primary">SDS</a>
-                        <a href="#" target="_blank" class="btn btn-primary disabled">TDS</a>
-                    </div>
-                </div>
-            </div>
-            
-                </div>
-              
-                         
-                            <h4 class="page-header">Levia Custom Digital Coatings</h4>
-                            <p>Levia Custom Digital Coatings offer exceptional adhesion and extended shelf life for various thicknesses of unique substrate applications.</p>
-                        
-                       
-                    </div>
-
-                    <div class="tab-pane fade" id="video">
+                    
+                    <div class="tab-pane fade" id="psa">
                         <div class="row">
-                            <div class="col-lg-12">
-                                <h3 class="page-header">How-To Videos</h3>
-                            </div>
-                            <div class="col-md-6">
-                            <h4>Determining the Dyne Level of a Substrate</h4>
-                                 <div class="video-container">
-                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/FxUfjwqc7J4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                                 </div>
-                            </div>
-                            
-                            <div class="col-md-6">
-                            <h4>Cleaning Anilox Rollers</h4>
-                                 <div class="video-container">
-                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/YCOFeZlRbfo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                                 </div>
-                            </div>
-                            <div class="col-lg-12" style="height:40px;"></div>
-                            <div class="col-md-6">
-                                 <h4>Evaluating Print Performance</h4>
-                                 <div class="video-container">
-                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/zXj7NvgtvXk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                                 </div>
-                            </div>
-                            <div class="col-md-6">
-                            <h4>Best Practices While Priming a Substrate</h4>
-                                 <div class="video-container">
-                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/rX_lH-QNRRE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                                 </div>
-                            </div>
-                            
-                      </div>
-                    </div>    
-                    <div class="tab-pane fade" id="chart">
-                        <!-- Comparison Chart -->
-                        <div class="well">
-                                <div class="compchart">
-                                    <div class="row">
-                                          <div><h1 class="charthead">Compatibility Chart</h1></div>
-                                              <table>
-                                                <thead>
-                                                  <tr>
-                                                    <th>&nbsp;</th>
-                                                    <th class="headertext"><div>Brush</div></th>
-                                                    <th class="headertext"><div>Roll</div></th>
-                                                    <th class="headertext"><div>Spray</div></th>
-                                                    <th class="headertext"><div>Liquid</div></th>
-                                                  </tr>
-                                                </thead>
+                                <div class="col-lg-12">
+                                    <h3 class="page-header">Pressure Sensitive Adhesive</h3>
+                                    <p>LexJet’s line of PSA laminates are applied by pressure and do not require heat and create a mechanical bond.  We’ve got you covered with our extensive line that includes Premium Elite Laminates, Performance Laminates, Floor &amp; Specialty Laminates, and PSA Backers.</p>
+                                    <p>Suggested Settings:
+                                        <ul>
+                                            <li>Pressure – 40-60 psi</li>
+                                            <li>Speed – 2-3 feet per minute</li>
+                                            <li>Tension – 0 (keep a little slack in the film)</li>
+                                            <li>Heat – 80-100 degrees Fahrenheit</li>
+                                        </ul>
+                                    </p>
+                                    <table>
                                                 <tbody>
                                                 <tr class="visible-xs" aria-hidden="true">
-                                                  <td>&nbsp;</td>
-                                                  <td colspan="4">
-                                                    <h2>ClearShield Classic</h2><p>"A high-viscosity water-based liquid coating for enhanced UV-protection, chemical and abrasion resistance. For use on most non-water sensitive materials. Can be hand applied with a brush or roller. ClearShield Classic offers the highest film build of all of the formulations. It is perfect for vinyl, banners, andsuitable for vertical applications."</p>
-                                                  </td>
+                                                    <td>&nbsp;</td>
+                                                    <td colspan="3">
+                                                        <h2>Optically Clear Cast Gloss Laminate</h2><p>LexJet Optically Clear Cast Gloss Laminate is a 2 Mil gloss optically clear vinyl laminate that partners well with perforated vinyl for window graphics. It has a permanent pressure sensitive acrylic adhesive.</p>
+                                                    </td>
                                                 </tr>
-                                                  <tr>
+                                                <tr>
                                                     <td>
-                                                      <h2>ClearShield Classic</h2>
-                                                      <p>"A high-viscosity water-based liquid coating for enhanced UV-protection, chemical and abrasion resistance. For use on most non-water sensitive materials. Can be hand applied with a brush or roller. ClearShield Classic offers the highest film build of all of the formulations. It is perfect for vinyl, banners, andsuitable for vertical applications."</p></td>
-                                                    <td><img class="icon" src="img/brushicon.png"></td>
-                                                    <td><img class="icon" src="img/rollicon.png"></td>
+                                                      <h2>Optically Clear Cast Gloss Laminate</h2>
+                                                      <p>LexJet Optically Clear Cast Gloss Laminate is a 2 Mil gloss optically clear vinyl laminate that partners well with perforated vinyl for window graphics. It has a permanent pressure sensitive acrylic adhesive.</p></td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-703-LexJet-Optically-Clear-Cast-Gloss-Laminate.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
                                                     <td>&nbsp;</td>
-                                                    <td>&nbsp;</td>
-                                                  </tr>
-                                                  <tr class="visible-xs" aria-hidden="true">
+                                                    <td colspan="3">
+                                                        <h2>Elite Textured Coex Laminate (5 Mil)</h2><p>LexJet Elite Textured Coex Laminate 5 Mil with PreLume&reg; technology is a rigid, co-polymer laminating film that is easier-to-trim than polycarbonate or Lexan. It can be used to economically produce shorter-term durable graphics for pop-up booths or be combined with a LexJet pressure-sensitive adhesive to produce, durable mounted graphics.</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                      <h2>Elite Textured Coex Laminate (5 Mil)</h2>
+                                                      <p>LexJet Elite Textured Coex Laminate 5 Mil with PreLume&reg; technology is a rigid, co-polymer laminating film that is easier-to-trim than polycarbonate or Lexan. It can be used to economically produce shorter-term durable graphics for pop-up booths or be combined with a LexJet pressure-sensitive adhesive to produce, durable mounted graphics.</p></td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-1259-LexJet-Elite-Textured-Coex-Laminate-5-Mil.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
                                                       <td>&nbsp;</td>
-                                                      <td colspan="4"><h2>ClearShield Classic Lite</h2><p>"A low-viscosity water-based liquid coating for enhanced UV-protection, chemical and abrasion resistance. Can be hand applied by hand with a brush, roller or with automated spray equipment. Classic Lite offers the same great protection as ClearShield Classic but is an option for those seeking a laminate with a lower viscosity."</p></td>
-                                                  </tr>
-                                                  <tr>
+                                                      <td colspan="3">
+                                                        <h2>Elite Textured Coex Laminate (10 Mil)</h2><p>LexJet Elite Textured Coex Laminate 10 Mil with PreLume&reg; technology is a rigid, medium-gauge, co-polymer laminating film that can enhance both the look and durability of graphics that will be repeatedly be hung with Velcro&reg; hook-and-loop tape to the fabric panels of pop-up trade-show booths. This film is easier-to-trim and handle than polycarbonate or Lexan.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
                                                     <td>
-                                                      <h2>ClearShield Classic Lite</h2>
-                                                      <p>"A low-viscosity water-based liquid coating for enhanced UV-protection, chemical and abrasion resistance. Can be hand applied by hand with a brush, roller or with automated spray equipment. Classic Lite offers the same great protection as ClearShield Classic but is an option for those seeking a laminate with a lower viscosity."</p></td>
-                                                    <td><img class="icon" src="img/brushicon.png"></td>
-                                                    <td><img class="icon" src="img/rollicon.png"></td>
-                                                    <td><img class="icon" src="img/sprayicon.png"></td>
-                                                    <td>&nbsp;</td>
-                                                  </tr>
-                                                  <tr class="visible-xs" aria-hidden="true">
+                                                        <h2>Elite Textured Coex Laminate (10 Mil)</h2>
+                                                        <p>LexJet Elite Textured Coex Laminate 10 Mil with PreLume&reg; technology is a rigid, medium-gauge, co-polymer laminating film that can enhance both the look and durability of graphics that will be repeatedly be hung with Velcro&reg; hook-and-loop tape to the fabric panels of pop-up trade-show booths. This film is easier-to-trim and handle than polycarbonate or Lexan.</p></td>
+                                                        <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-1257-LexJet-Elite-Textured-Coex-Laminate-10-Mil.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
                                                       <td>&nbsp;</td>
-                                                      <td colspan="4"><h2>ClearShield Wall Armor</h2><p>"Our Type II Certfied solution specifically formulated for wall covering applications. Wall Armor is compatible with latex, eco-solvent, and UV inks and is both scratch &amp; stain resistant. Wall Armor can be applied by hand in a brush or roll application, by automated spray equipment or with a liquid laminator such as the StarLam 1600R."</p></td>
-                                                  </tr>
-                                                  <tr>
+                                                      <td colspan="3">
+                                                        <h2>Elite Textured Coex Laminate (15 Mil)</h2><p>LexJet Elite Textured Coex Laminate 15 Mil with PreLume&reg; technology is a thick, rigid co-polymer laminating film for the production of trade-show graphics that can be hung with magnets directly to a metal frame of a booth. This film is easier-to-trim and handle than polycarbonate or Lexan, which is particularly important when laminating and hanging booth graphics that are 60-in. wide.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
                                                     <td>
-                                                      <h2>ClearShield Wall Armor</h2>
-                                                      <p>"Our Type II Certfied solution specifically formulated for wall covering applications. Wall Armor is compatible with latex, eco-solvent, and UV inks and is both scratch &amp; stain resistant. Wall Armor can be applied by hand in a brush or roll application, by automated spray equipment or with a liquid laminator such as the StarLam 1600R."</p></td>
-                                                    <td><img class="icon" src="img/brushicon.png"></td>
-                                                    <td><img class="icon" src="img/rollicon.png"></td>
-                                                    <td><img class="icon" src="img/sprayicon.png"></td>
-                                                    <td><img class="icon" src="img/liquidicon.png"></td>
+                                                        <h2>Elite Textured Coex Laminate (15 Mil)</h2>
+                                                        <p>LexJet Elite Textured Coex Laminate 15 Mil with PreLume&reg; technology is a thick, rigid co-polymer laminating film for the production of trade-show graphics that can be hung with magnets directly to a metal frame of a booth. This film is easier-to-trim and handle than polycarbonate or Lexan, which is particularly important when laminating and hanging booth graphics that are 60-in. wide.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-1258-LexJet-Elite-Textured-Coex-Laminate-15-Mil.aspx">LEARN MORE</a></button></td>
                                                   </tr>
-                                                  <tr class="visible-xs" aria-hidden="true">
+                                                <tr class="visible-xs" aria-hidden="true">
                                                       <td>&nbsp;</td>
-                                                      <td colspan="4"><h2>ClearShield StarLam</h2><p>"ClearShield for the StarLam is specifically designed for use on our StarLam roll-to-roll laminator and it also works on other liquid laminators with the same great results. ClearShield for the StarLam provides enhanced UV-protection, as well as chemical and abrasion resistance."</p></td>
-                                                  </tr>
-                                                  <tr>
+                                                      <td colspan="3">
+                                                        <h2>Elite Luster UV Vinyl Laminate (3.2 Mil)</h2><p>LexJet's Elite Luster UV Vinyl pressure-sensitive laminate with PreLume technology is designed for long-term graphics where image fidelity, color pop, and brightness are paramount. This laminate is ideal for detailed and discerning end users who demand the best possible representation of their images, such as those found in the corporate and fashion markets where branding is everything. PreLume technology improves color accuracy by eliminating color casts in printable papers and films. PreLume prevents graphics from yellowing over time, extending the life of the image. Previously named - LexJet 3.2 Mil GraphicsGuard™ UV Luster w/ PreLume&reg;.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
                                                     <td>
-                                                      <h2>ClearShield StarLam</h2>
-                                                      <p>"ClearShield for the StarLam is specifically designed for use on our StarLam roll-to-roll laminator and it also works on other liquid laminators with the same great results. ClearShield for the StarLam provides enhanced UV-protection, as well as chemical and abrasion resistance."</p></td>
-                                                    <td>&nbsp;</td>
-                                                    <td>&nbsp;</td>
-                                                    <td>&nbsp;</td>
-                                                    <td><img class="icon" src="img/liquidicon.png"></td>
-                                                  </tr>
-                                                  <tr class="visible-xs" aria-hidden="true">
+                                                        <h2>Elite Luster UV Vinyl Laminate (3.2 Mil)</h2>
+                                                        <p>LexJet's Elite Luster UV Vinyl pressure-sensitive laminate with PreLume technology is designed for long-term graphics where image fidelity, color pop, and brightness are paramount. This laminate is ideal for detailed and discerning end users who demand the best possible representation of their images, such as those found in the corporate and fashion markets where branding is everything. PreLume technology improves color accuracy by eliminating color casts in printable papers and films. PreLume prevents graphics from yellowing over time, extending the life of the image. Previously named - LexJet 3.2 Mil GraphicsGuard™ UV Luster w/ PreLume&reg;.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-2583-LexJet-Elite-Luster-UV-Vinyl-Laminate-32-Mil.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
                                                       <td>&nbsp;</td>
-                                                      <td colspan="4"><h2>ClearShield Canvas Guard</h2><p>"ClearShield Canvas Guard is specifically formulated for use over water-resistant canvas and Gicleé applications. Canvas Guard is highly flexible allowing the user to stretch their canvas after coating. Canvas Guard is the ultimate protection for canvas."</p></td>
-                                                  </tr>
-                                                  <tr>
+                                                      <td colspan="3">
+                                                        <h2>Elite Matte UV Vinyl Laminate (3.2 Mil)</h2><p>LexJet Elite Matte UV Vinyl Laminate 3.2 Mil with PreLume&reg; technology can help you produce graphics that instantly look whiter and brighter. The PreLume technology in this flexible, calendered PVC film provides a quick way to dramatically improve the look of your prints without tweaking printer settings or color profiles. LexJet’s patented PreLume technology improves color accuracy by eliminating color casts in printable papers and films, and extends the useful life of the printed image by preventing the graphic from yellowing over time.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
                                                     <td>
-                                                      <h2>ClearShield Canvas Guard</h2>
-                                                      <p>"ClearShield Canvas Guard is specifically formulated for use over water-resistant canvas and Gicleé applications. Canvas Guard is highly flexible allowing the user to stretch their canvas after coating. Canvas Guard is the ultimate protection for canvas."</p></td>
-                                                    <td><img class="icon" src="img/brushicon.png"></td>
-                                                    <td><img class="icon" src="img/rollicon.png"></td>
-                                                    <td>&nbsp;</td>
-                                                    <td>&nbsp;</td>
-                                                  </tr>
-                                                  <tr class="visible-xs" aria-hidden="true">
+                                                        <h2>Elite Matte UV Vinyl Laminate (3.2 Mil)</h2>
+                                                        <p>LexJet Elite Matte UV Vinyl Laminate 3.2 Mil with PreLume&reg; technology can help you produce graphics that instantly look whiter and brighter. The PreLume technology in this flexible, calendered PVC film provides a quick way to dramatically improve the look of your prints without tweaking printer settings or color profiles. LexJet’s patented PreLume technology improves color accuracy by eliminating color casts in printable papers and films, and extends the useful life of the printed image by preventing the graphic from yellowing over time.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-2716-LexJet-Elite-Matte-UV-Vinyl-Laminate-32-Mil.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
                                                       <td>&nbsp;</td>
-                                                      <td colspan="4"><h2>ClearShield Canvas Guard StarLam</h2><p>"ClearShield Canvas Guard for the StarLam is formulated for use over water-resistant canvas and Gicleé applications that are coated on the StarLam roll-to-roll laminator or other automated liquid laminators. Canvas Guard for the StarLam is highly flexible allowing the user to stretch the canvas after coating."</p></td>
-                                                  </tr>
-                                                  <tr>
+                                                      <td colspan="3">
+                                                        <h2>Performance Textured Polypropylene Laminate (5 Mil)</h2><p>LexJet Performance Textured Polypropylene Laminate 5 Mil is a versatile, pressure-sensitive, laminating film that can be used to economically produce a wide range of graphics on less costly cold-roll laminators. Made from a proprietary co-polymer film, it is more rigid and has less curl than vinyl films. It also doesn’t yellow, and may appeal to environmentally-conscious customers who prefer avoiding the use of vinyl materials.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
                                                     <td>
-                                                      <h2>ClearShield Canvas Guard StarLam</h2>
-                                                      <p>"ClearShield Canvas Guard for the StarLam is formulated for use over water-resistant canvas and Gicleé applications that are coated on the StarLam roll-to-roll laminator or other automated liquid laminators. Canvas Guard for the StarLam is highly flexible allowing the user to stretch the canvas after coating."</p></td>
-                                                    <td>&nbsp;</td>
-                                                    <td>&nbsp;</td>
-                                                    <td>&nbsp;</td>
-                                                    <td><img class="icon" src="img/liquidicon.png"></td>
-                                                  </tr>
-                                                  <tr class="visible-xs" aria-hidden="true">
+                                                        <h2>Performance Textured Polypropylene Laminate (5 Mil)</h2>
+                                                        <p>LexJet Performance Textured Polypropylene Laminate 5 Mil is a versatile, pressure-sensitive, laminating film that can be used to economically produce a wide range of graphics on less costly cold-roll laminators. Made from a proprietary co-polymer film, it is more rigid and has less curl than vinyl films. It also doesn’t yellow, and may appeal to environmentally-conscious customers who prefer avoiding the use of vinyl materials.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-3521-LexJet-Performance-Textured-Polypropylene-Laminate-5-Mil.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
                                                       <td>&nbsp;</td>
-                                                      <td colspan="4"><h2>ClearShield Production Clear</h2><p>"Originally formulated for use over eco-solvent inks, Production Clear has proven it's versatility over time as the only water-based laminate recommended for use over UV-inks as well."</p></td>
-                                                  </tr>
-                                                  <tr>
+                                                      <td colspan="3">
+                                                        <h2>Performance Satin UV Vinyl Laminate (3 Mil)</h2><p>EnduraCoat Transit Matte is a flexible, stable coating for outdoor and fleet graphic applications’ compatible with (eco) solvent, UV and latex printers; outdoor durable.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
                                                     <td>
-                                                      <h2>ClearShield Production Clear</h2>
-                                                      <p>"Originally formulated for use over eco-solvent inks, Production Clear has proven it's versatility over time as the only water-based laminate recommended for use over UV-inks as well."</p></td>
-                                                    <td><img class="icon" src="img/brushicon.png"></td>
-                                                    <td><img class="icon" src="img/rollicon.png"></td>
-                                                    <td><img class="icon" src="img/sprayicon.png"></td>
-                                                    <td>&nbsp;</td>
-                                                  </tr>
-                                                  <tr class="visible-xs" aria-hidden="true">
+                                                        <h2>Performance Satin UV Vinyl Laminate (3 Mil)</h2>
+                                                        <p>LexJet Performance Satin UV Vinyl Laminate 3 Mil is a thin, economical vinyl laminating film that adds an extra layer of protection to short-term graphics. It is good way to add value and functionality to projects such as construction barricades, event graphics, legal and corporation presentations, and promotional signage.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-3188-LexJet-Performance-Satin-UV-Vinyl-Laminate-3-Mil.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
                                                       <td>&nbsp;</td>
-                                                      <td colspan="4"><h2>ClearShield Anti-Graffiti</h2><p>"ClearShield Anti-Graffiti is highly flexible and highly chemical and UV resistant. Anti-Graffiti is perfect for applications in high traffic areas, and makes the surface easy to clean."</p></td>
-                                                  </tr>
-                                                  <tr>
+                                                      <td colspan="3">
+                                                        <h2>Performance Matte UV Vinyl Laminate (3 Mil)</h2><p>LexJet Performance Matte UV Vinyl Laminate 3 Mil, combines quality, value, economy, and performance for all types of interior graphics. The 3 mil matte-finish laminate is designed to add significant profit for applications like event graphics, legal and corporate presentations, point-of-purchase, and more.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
                                                     <td>
-                                                      <h2>ClearShield Anti-Graffiti</h2>
-                                                      <p>"ClearShield Anti-Graffiti is highly flexible and highly chemical and UV resistant. Anti-Graffiti is perfect for applications in high traffic areas, and makes the surface easy to clean."</p></td>
-                                                    <td><img class="icon" src="img/brushicon.png"></td>
-                                                    <td><img class="icon" src="img/rollicon.png"></td>
-                                                    <td>&nbsp;</td>
-                                                    <td>&nbsp;</td>
-                                                  </tr>
-                                                  <tr class="visible-xs" aria-hidden="true">
+                                                        <h2>Performance Matte UV Vinyl Laminate (3 Mil)</h2>
+                                                        <p>LexJet Performance Matte UV Vinyl Laminate 3 Mil, combines quality, value, economy, and performance for all types of interior graphics. The 3 mil matte-finish laminate is designed to add significant profit for applications like event graphics, legal and corporate presentations, point-of-purchase, and more.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-3827-LexJet-Performance-Matte-UV-Vinyl-Laminate-3-Mil.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
                                                       <td>&nbsp;</td>
-                                                      <td colspan="4"><h2>ClearShield A2000 Solvent-Based</h2><p>ClearJet is a solvent-based laminate for use on water-sensitive inks and substrates. ClearJet A2000 is highly flexible and easy to apply. Consider ClearJet for applications where ClearShield is not an option due to the water-sensitivity of the materials being coated.</p></td>
-                                                  </tr>
-                                                  <tr>
+                                                      <td colspan="3">
+                                                        <h2>Performance Gloss Vinyl Laminate (3 Mil)</h2><p>LexJet Performance Gloss Vinyl Laminate 3 Mil, combines quality, value, economy, and performance for all types of interior graphics. The 3-mil high gloss-finish laminate is designed to add significant profit for applications like event graphics, legal and corporate presentations, point-of-purchase, and more.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
                                                     <td>
-                                                      <h2>ClearJet A2000 Solvent-Based</h2>
-                                                      <p>ClearJet is a solvent-based laminate for use on water-sensitive inks and substrates. ClearJet A2000 is highly flexible and easy to apply. Consider ClearJet for applications where ClearShield is not an option due to the water-sensitivity of the materials being coated.</p></td>
-                                                    <td>&nbsp;</td>
-                                                    <td>&nbsp;</td>
-                                                    <td><img class="icon" src="img/sprayicon.png"></td>
-                                                    <td>&nbsp;</td>
-                                                  </tr>
-                                                  <tr class="visible-xs" aria-hidden="true">
+                                                        <h2>Performance Gloss Vinyl Laminate (3 Mil)</h2>
+                                                        <p>LexJet Performance Gloss Vinyl Laminate 3 Mil, combines quality, value, economy, and performance for all types of interior graphics. The 3-mil high gloss-finish laminate is designed to add significant profit for applications like event graphics, legal and corporate presentations, point-of-purchase, and more.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-3826-LexJet-Performance-Gloss-Vinyl-Laminate-3-Mil.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
                                                       <td>&nbsp;</td>
-                                                      <td colspan="4"><h2>ClearShield Fine Art</h2><p>ClearJet Fine Art Version is our solvent-based option for fine art applications that are water-sensitive. It is highly flexible and will not cause discoloration or react with the ink jet receptive layer of fine art substrates.</p></td>
-                                                  </tr>
-                                                  <tr>
+                                                      <td colspan="3">
+                                                        <h2>Simple Flo Wrap Gloss UV Laminate (2.4 Mil)</h2><p>LexJet Simple Flo Wrap Gloss UV Laminate 2.4 Mil pressure sensitive laminate is a gloss ultra-conformable calendared vinyl. This premium laminate is designed to be partnered with LexJet Simple Flo Wrap Vinyl for conformable wrap applications and other applications where a long term gloss finish is desired. It offers seven years of durability.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
                                                     <td>
-                                                      <h2>ClearJet Fine Art</h2>
-                                                      <p>ClearJet Fine Art Version is our solvent-based option for fine art applications that are water-sensitive. It is highly flexible and will not cause discoloration or react with the ink jet receptive layer of fine art substrates.</p></td>
-                                                    <td>&nbsp;</td>
-                                                    <td>&nbsp;</td>
-                                                    <td><img class="icon" src="img/sprayicon.png"></td>
-                                                    <td>&nbsp;</td>
-                                                  </tr>
-                                                </tbody>
-                                              </table>
-                                    </div>
-                                    <div class="row">
-                                        <h3 class="padhead">Benefits for your business:</h3>
-                                              <div class="row">
-                                                <div class="col-sm-4">
-                                                  <div class="tile purple">
-                                                    <p>Lower material costs: Liquid Coatings are considerably less expensive than laminating films, depending on material and application</p>
-                                                  </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                  <div class="tile red">
-                                                    <p>Lower process costs: Liquid Coating by means of roller coating eliminates the need for time-intensive post-print cutting</p>
-                                                  </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                  <div class="tile orange">
-                                                    <p>Purpose-designed: Products specifically designed for each application instead of allpurpose coatings of unspectacular quality</p>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                              <div class="row">
-                                                <div class="col-sm-4">
-                                                  <div class="tile green">
-                                                    <p>Consistent quality: Machine application for industrial and reproducible quality - on rigid and flexible substrates</p>
-                                                  </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                  <div class="tile blue">
-                                                    <p>Suitable for outdoor use: With a high-grade sandwich combination of film, ink, and coating</p>
-                                                  </div>
-                                                </div>    
-                                                <div class="col-sm-4">
-                                                  <div class="tile yellow">
-                                                    <p>First-class results: Whether glossy or matte, our coatings provide complete and even coverage without "orange peel effect"</p>
-                                                  </div>
-                                                </div> 
-                                              </div>
-                                            </div>
-                                        </div>
+                                                        <h2>Simple Flo Wrap Gloss UV Laminate (2.4 Mil)</h2>
+                                                        <p>LexJet Simple Flo Wrap Gloss UV Laminate 2.4 Mil pressure sensitive laminate is a gloss ultra-conformable calendared vinyl. This premium laminate is designed to be partnered with LexJet Simple Flo Wrap Vinyl for conformable wrap applications and other applications where a long term gloss finish is desired. It offers seven years of durability.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-3851-LexJet-Simple-Flo-Wrap-Gloss-UV-Laminate-24-Mil.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>Gloss Polyester Laminate (2 Mil)</h2><p>LexJet Gloss Polyester Laminate 2 Mil is a very thin, ultra-clear, high-quality laminating film that is ideal for protecting high-end photographic and inkjet prints from abrasion, humidity, fingerprints, and exposure to chemicals. It is a popular choice for laminating photographic prints that won’t be displayed behind glass in frames, such as prints displayed at exhibitions, competitions, and art fairs.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>Gloss Polyester Laminate (2 Mil)</h2>
+                                                        <p>LexJet Gloss Polyester Laminate 2 Mil is a very thin, ultra-clear, high-quality laminating film that is ideal for protecting high-end photographic and inkjet prints from abrasion, humidity, fingerprints, and exposure to chemicals. It is a popular choice for laminating photographic prints that won’t be displayed behind glass in frames, such as prints displayed at exhibitions, competitions, and art fairs.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-2388-LexJet-Gloss-Polyester-Laminate-2-Mil.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>Dry Erasable Gloss Laminate (2 Mil)</h2><p>LexJet Dry Erasable Gloss Laminate 2 Mil enables prints to be converted into write- on/wipe-off boards that have the changeability of a chalkboard, but with much less mess.</p>
+                                                        <p>Buyers of these types of graphics can use dry-erase markers from any office-supply stores to write daily specials on colorfully printed signs, call attention to important details in photographs enlarged for courtroom graphics, or keep everyone in the office, classroom, or home apprised about the activities and goals for the week.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>Dry Erasable Gloss Laminate (2 Mil)</h2>
+                                                        <p>LexJet Dry Erasable Gloss Laminate 2 Mil enables prints to be converted into write- on/wipe-off boards that have the changeability of a chalkboard, but with much less mess.</p>
+                                                        <p>Buyers of these types of graphics can use dry-erase markers from any office-supply stores to write daily specials on colorfully printed signs, call attention to important details in photographs enlarged for courtroom graphics, or keep everyone in the office, classroom, or home apprised about the activities and goals for the week.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-2387-LexJet-Dry-Erasable-Gloss-Laminate-2-Mil.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>Elite Polycarbonate Laminate (5 Mil)</h2><p>LexJet Elite Polycarbonate Laminate 5 Mil with PreLume&reg; technology is a flexible, versatile polycarbonate laminating film. It can be used to economically produce shorter-term durable graphics for pop-up booths or be combined with a LexJet pressure-sensitive adhesive to produce, extra-durable mounted graphics.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>Elite Polycarbonate Laminate (5 Mil)</h2>
+                                                        <p>LexJet Elite Polycarbonate Laminate 5 Mil with PreLume&reg; technology is a flexible, versatile polycarbonate laminating film. It can be used to economically produce shorter-term durable graphics for pop-up booths or be combined with a LexJet pressure-sensitive adhesive to produce, extra-durable mounted graphics.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-2552-LexJet-Elite-Polycarbonate-Laminate-5-Mil.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>Elite Polycarbonate Laminate (10 Mil)</h2><p>LexJet Elite Polycarbonate Laminate 10 Mil with PreLume&reg; technology is a rugged, medium-gauge, polycarbonate laminating film designed to enhance both the look and durability of graphics that will be repeatedly be hung with Velcro&reg; hook-and-loop tape to the fabric panels of pop-up trade-show booths. This laminate works particularly well with graphics printed on LexJet's White DuPont Melinex Polyester Film.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>Elite Polycarbonate Laminate (10 Mil)</h2>
+                                                        <p>LexJet Elite Polycarbonate Laminate 10 Mil with PreLume&reg; technology is a rugged, medium-gauge, polycarbonate laminating film designed to enhance both the look and durability of graphics that will be repeatedly be hung with Velcro&reg; hook-and-loop tape to the fabric panels of pop-up trade-show booths. This laminate works particularly well with graphics printed on LexJet's White DuPont Melinex Polyester Film.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-2542-LexJet-Elite-Polycarbonate-Laminate-10-Mil.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>Elite Polycarbonate Laminate (15 Mil)</h2><p>LexJet Elite Polycarbonate Laminate 15 Mil with PreLume&reg; technology is a thick, rigid polycarbonate laminating film for the production of trade-show graphics that can be hung with magnets directly to a metal frame of a booth. This film works particularly well with graphics printed on LexJet’s White DuPont Melinex Polyester Film.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>Elite Polycarbonate Laminate (15 Mil)</h2>
+                                                        <p>LexJet Elite Polycarbonate Laminate 15 Mil with PreLume&reg; technology is a thick, rigid polycarbonate laminating film for the production of trade-show graphics that can be hung with magnets directly to a metal frame of a booth. This film works particularly well with graphics printed on LexJet’s White DuPont Melinex Polyester Film.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-2546-LexJet-Elite-Polycarbonate-Laminate-15-Mil.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                                <tr class="visible-xs" aria-hidden="true">
+                                                      <td>&nbsp;</td>
+                                                      <td colspan="3">
+                                                        <h2>Floor Velvet Laminate (5 Mil)</h2><p>LexJet Floor Velvet Laminate 5 Mil is a velvet textured overlaminate perfect for floor graphics, display graphics, counter mats, mouse pads, decals and more. This laminate is UL certified for slip resistance for floor surfaces.</p>
+                                                      </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h2>Floor Velvet Laminate (5 Mil)</h2>
+                                                        <p>LexJet Floor Velvet Laminate 5 Mil is a velvet textured overlaminate perfect for floor graphics, display graphics, counter mats, mouse pads, decals and more. This laminate is UL certified for slip resistance for floor surfaces.</p>
+                                                    </td>
+                                                    <td colspan="3" class="lastcell"><button type="button" class="btn btn-primary"><a href="http://www.lexjet.com/p-3818-LexJet-Floor-Velvet-Laminate-5-Mil.aspx">LEARN MORE</a></button></td>
+                                                </tr>
+                                             </tbody>
+                                        </table>
+                                </div>
                             </div>
-                    </div> 
-                </div>
-            </div>
-        </div>
-        <!-- Tabs End -->
+                        </div>
+                    </div>
+                    <!-- Tabs End -->
 
-<hr>
+            <hr>
         <!-- FAQ Section 
         <div class="well">-->
             <div class="row">
