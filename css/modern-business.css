@@ -85,6 +85,15 @@ header.carousel .fill {
 
 /* Pricing Page Styles + Updates */
 
+.btn-primary {
+    padding: 20px;
+}
+
+.btn-primary > a {
+    color: #fff;
+    text-decoration: none;
+}
+
 img.icon {
     height: 60px;
     width: 60px;
@@ -237,6 +246,10 @@ footer {
 
     .compchart > .row {
         margin: 0 !important;
+    }
+
+    .lastcell {
+        width: 25%;
     }
 }
 
