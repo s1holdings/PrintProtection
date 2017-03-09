@@ -129,6 +129,46 @@ table {
     width: 100%;
 }
 
+#tab1 {
+    background: url(../img/Thermal_25px.png) no-repeat;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    display: inline-block;
+    top: 5px;
+    right: 5px;
+}
+
+#tab2 {
+    background: url(../img/Liquid_25px.png) no-repeat;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    display: inline-block;
+    top: 5px;
+    right: 5px;
+}
+
+#tab3 {
+    background: url(../img/psa_25px.png) no-repeat;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    display: inline-block;
+    top: 5px;
+    right: 5px;
+}
+
+#tab4 {
+    background: url(../img/faq-25px.png) no-repeat;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    display: inline-block;
+    top: 5px;
+    right: 5px;
+}
+
 td {
     width: 96px;
 }
@@ -238,6 +278,10 @@ footer {
     .nomarg {
         margin-top: 13px !important;
     }
+
+    .tablink {
+        background-position: 20px 10px !important;
+    }
 }
 
 @media(max-width:991px) {
@@ -263,6 +307,12 @@ footer {
 
     .lastcell {
         width: 25%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+    .tablink {
+        background-position: 0 10px !important;
     }
 }
 
@@ -297,6 +347,10 @@ footer {
     
     h2 {
       font-size: 22px;
+    }
+
+    .tablink {
+        background-position: 20px 10px !important;
     }
     
     tr {
