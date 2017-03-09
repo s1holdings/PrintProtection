@@ -1309,10 +1309,40 @@ $.fn.scrollToView = function () {
 <script type="text/javascript" charset="utf-8">
   $(document).ready(function(){
     $("a[rel^='prettyPhoto']").prettyPhoto();
-    $( "a.accordion-toggle" ).on( "click", function() {
-        console.log('clickt');
+    $( "a.accordion-toggle" ).on( "click", function(e) {
+        //e.preventDefault();
         $(this).children("i").toggleClass("glyphicon-chevron-up glyphicon-chevron-down");
+        if ($('div.collapse.in').length > 0) { 
+            // it exists 
+            //alert('ha!');
+            $('div.collapse.in').prev('.panel-heading').find("i").removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-up");
+            //alert('ha!');
+            //$(this).children("i").toggleClass("glyphicon-chevron-down glyphicon-chevron-up");
+        } else {
+            //if (!$("div.collapse").hasClass("in")) {
+            //alert('bah!');
+            $(this).children("i").removeClass("glyphicon-chevron-up").addClass("glyphicon-chevron-down");
+            //$( 'div.collapse:not(.in)' ).prev('.panel-heading').find("i").removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-up")
+            //}
+            //$('div.collapse').prev('.panel-heading').find("i").removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-up")
+            //alert('bah!');
+            //$(this).children("i").toggleClass("glyphicon-chevron-up glyphicon-chevron-down");
+        }
+        //if ($(this).closest(".panel-heading").next(".collapse").css("display") == "none" || $(this).css("visibility") == "hidden") {
+            // The element is not visible
+            //alert('nope');
+        //} else {
+            // The element is visible
+            //alert('yep');
+        //}
+        //if((".panel-collapse.collapse").length = 0) {
+            //The element has not been added to the DOM because it doesn't not have a parentNode
+            //alert('nope');
+        //}
+        //alert('click');
+        //$(this).children("i").toggleClass("glyphicon-chevron-up glyphicon-chevron-down");
         $(this).blur();
+        
     });
   });
 </script>
