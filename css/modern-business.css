@@ -177,11 +177,11 @@ td, th {
     text-align: center;
     border-bottom: solid 1px #ccc;
     font-size: 12px;
-    padding: 6px;
+    padding: 10px;
     word-wrap: break-word;
 }
 
-td:nth-child(even), th:nth-child(even) {
+tr:nth-child(4n+4), tr:nth-child(4n+3) > td:nth-child(2) {
     background-color: #efefef;
 }
 
@@ -306,6 +306,7 @@ footer {
     }
 
     .lastcell {
+        border-left: 1px solid #ccc;
         width: 25%;
     }
 }
