@@ -1220,6 +1220,11 @@ $.fn.scrollToView = function () {
 </script>    
 
 <script type="text/javascript" charset="utf-8">
+  if (typeof(jQuery) == "undefined") {
+    var iframeBody = document.getElementsByTagName("body")[0];
+    var jQuery = function (selector) { return parent.jQuery(selector, iframeBody); };
+    var $ = jQuery;
+}
   $(document).ready(function(){
     $("a[rel^='prettyPhoto']").prettyPhoto();
     $( "a.accordion-toggle" ).on( "click", function(e) {
